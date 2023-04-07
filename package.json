@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "saasmakers-app",
   "private": true,
   "scripts": {
     "build": "nuxt build",
