@@ -14,5 +14,37 @@ export default defineNuxtConfig({
 
   // --> MODULES, PLUGINS AND STYLESHEETS <--
 
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/i18n", "@nuxtjs/tailwindcss"],
+
+  // --> MODULES CONFIGURATION <--
+
+  i18n: {
+    defaultLocale: "en",
+    langDir: "./locales/",
+    lazy: true,
+    strategy: "prefix_except_default",
+
+    detectBrowserLanguage: {
+      useCookie: true,
+      fallbackLocale: "en",
+    },
+
+    locales: [
+      {
+        code: "en",
+        iso: "en",
+        file: "en.js",
+      },
+      {
+        code: "fr",
+        iso: "fr",
+        file: "fr.js",
+      },
+    ],
+
+    vueI18n: {
+      fallbackLocale: "en",
+      silentTranslationWarn: true,
+    },
+  },
 });
