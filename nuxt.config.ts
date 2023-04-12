@@ -4,5 +4,11 @@
  **************************************************************************/
 
 export default defineNuxtConfig({
+  // --> BUILD CONFIGURATION <--
+
   components: ["~/components/bases"],
+
+  // --> MODULES, PLUGINS AND STYLESHEETS <--
+
+  modules: ["@nuxtjs/tailwindcss"],
 });
