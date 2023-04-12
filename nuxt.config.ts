@@ -8,6 +8,10 @@ export default defineNuxtConfig({
 
   components: ["~/components/bases"],
 
+  devServer: {
+    port: 2023,
+  },
+
   // --> MODULES, PLUGINS AND STYLESHEETS <--
 
   modules: ["@nuxtjs/tailwindcss"],
