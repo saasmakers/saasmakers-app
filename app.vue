@@ -1,3 +1,5 @@
 <template>
-  <div></div>
+  <div>
+    <base-divider />
+  </div>
 </template>
