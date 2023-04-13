@@ -6,7 +6,7 @@
 export default defineNuxtConfig({
   // --> BUILD CONFIGURATION <--
 
-  components: ["~/components/bases"],
+  components: ["~/components/bases", "~/components/layouts"],
 
   devServer: {
     port: 2023,
