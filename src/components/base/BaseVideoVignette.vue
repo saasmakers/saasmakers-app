@@ -11,6 +11,7 @@
 
 <template lang="pug">
 span(
+  v-observe-visibility="onVisibilityChange"
   :class=`[
     "c-base-video-vignette",
     {
@@ -19,7 +20,7 @@ span(
     }
   ]`
   :style=`{
-    backgroundImage: (vignetteImageUrl ? ("url(" + vignetteImageUrl + ")") : null)
+    backgroundImage: ((hasBeenVisible && vignetteImageUrl) ? ("url(" + vignetteImageUrl + ")") : null)
   }`
 )
   .c-base-video-vignette__details
@@ -35,7 +36,15 @@ span(
         | Coming soon
 
     .c-base-video-vignette__details-text
-      h6.c-base-video-vignette__details-title.u-bold
+      h6(
+        :class=`[
+          "c-base-video-vignette__details-title",
+          {
+            "u-bold": isPlayable,
+            "u-semibold": !isPlayable
+          }
+        ]`
+      )
         | {{ title }}
 
       p.c-base-video-vignette__details-speakers.u-medium(
@@ -74,6 +83,14 @@ export default {
     }
   },
 
+  data() {
+    return {
+      // --> STATE <--
+
+      hasBeenVisible: false
+    };
+  },
+
   computed: {
     vignetteImageUrl() {
       if (this.id !== null) {
@@ -93,6 +110,22 @@ export default {
       }
 
       return null;
+    }
+  },
+
+  methods: {
+    // --> EVENT LISTENERS <--
+
+    /**
+     * Triggers when element visibility changes
+     * @public
+     * @param  {boolean} visibility
+     * @return {undefined}
+     */
+    onVisibilityChange(visibility) {
+      if (visibility === true && this.hasBeenVisible !== true) {
+        this.hasBeenVisible = true;
+      }
     }
   }
 };
