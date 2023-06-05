@@ -10,27 +10,13 @@
      ********************************************************************** -->
 
 <template lang="pug">
-.c-page-header
-  page-wrapper
-    .c-page-header__inner
-      .c-page-header__left
-        nuxt-link(
-          to="/"
-        )
-          base-logo
-
-      .c-page-header__right
-        a(
-          :href="$config.platforms.youtube.target"
-          target="_blank"
-        )
-          base-button(
-            tint="red"
-            borderless
-            bolder
-            round
-          )
-            | {{ $config.platforms.youtube.handle }}
+div(
+  :class=`[
+    "c-base-description",
+    "c-base-description--" + align
+  ]`
+)
+  slot
 </template>
 
 <!-- **********************************************************************
@@ -39,7 +25,18 @@
 
 <script>
 export default {
-  name: "PageHeader"
+  name: "BaseDescription",
+
+  props: {
+    align: {
+      type: String,
+      default: "left",
+
+      validator(x) {
+        return ["left", "center", "right"].includes(x);
+      }
+    }
+  }
 };
 </script>
 
@@ -48,23 +45,25 @@ export default {
      ********************************************************************** -->
 
 <style lang="scss">
-$c: ".c-page-header";
+$c: ".c-base-description";
 
-.c-page-header {
-  #{$c}__inner {
-    padding: 24px 0 36px;
-    display: flex;
-    align-items: center;
+.c-base-description {
+  color: $color-text-grey;
+  font-size: 15px;
+  line-height: 22px;
+
+  // --> ALIGNS <--
+
+  &--left {
+    text-align: left;
   }
 
-  #{$c}__left {
-    display: flex;
-    flex: 1;
+  &--center {
+    text-align: center;
   }
 
-  #{$c}__right {
-    padding-left: 20px;
-    flex: 0 0 auto;
+  &--right {
+    text-align: right;
   }
 }
 </style>

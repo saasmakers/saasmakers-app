@@ -231,6 +231,7 @@ export default {
     //   eg. in the future there might be some private built-time token shared \
     //   in this configuration file, which we DO NOT want to leak on the Web.
     url: CONFIG.url,
+    platforms: CONFIG.platforms,
     tokens: CONFIG.tokens.public,
     author: projectPackage.author
   },

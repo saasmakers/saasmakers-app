@@ -1,6 +1,13 @@
 {
   "url": {},
 
+  "platforms": {
+    "youtube": {
+      "handle": "@SaaSMakers",
+      "target": "https://www.youtube.com/@SaaSMakers"
+    }
+  },
+
   "tokens": {
     "public": {},
     "private": {}

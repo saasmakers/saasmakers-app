@@ -60,9 +60,7 @@
       slot="action"
     )
       base-button(
-        right-icon="arrow-right"
-        size="small"
-        bolder
+        size="large"
       )
         | Go to the home page
 </template>

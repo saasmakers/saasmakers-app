@@ -10,8 +10,13 @@
      ********************************************************************** -->
 
 <template lang="pug">
-.c-page-content
-  slot
+page-container
+  page-header
+
+  page-content
+    nuxt
+
+  page-footer
 </template>
 
 <!-- **********************************************************************
@@ -20,19 +25,6 @@
 
 <script>
 export default {
-  name: "PageContent"
+  name: "SimpleLayout"
 };
 </script>
-
-<!-- **********************************************************************
-     STYLE
-     ********************************************************************** -->
-
-<style lang="scss">
-$c: ".c-page-content";
-
-.c-page-content {
-  padding-top: 86px;
-  padding-bottom: 150px;
-}
-</style>
