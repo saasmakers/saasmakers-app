@@ -12,7 +12,12 @@
 <template lang="pug">
 .c-page-header
   page-wrapper
-    | Header: TODO
+    .c-page-header__inner
+      .c-page-header__left
+        base-logo
+
+      .c-page-header__right
+        //- TODO
 </template>
 
 <!-- **********************************************************************
@@ -33,6 +38,19 @@ export default {
 $c: ".c-page-header";
 
 .c-page-header {
-  /* TODO */
+  #{$c}__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  #{$c}__left {
+    display: flex;
+    flex: 1;
+  }
+
+  #{$c}__right {
+    padding-left: 20px;
+    flex: 0 0 auto;
+  }
 }
 </style>
