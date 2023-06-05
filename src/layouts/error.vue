@@ -20,12 +20,12 @@
       template(
         v-if="error.statusCode === 404"
       )
-        | Page Not Found
+        | Page non trouvée
 
       template(
         v-else
       )
-        | An Error Occurred
+        | Une erreur s'est produite
 
     template(
       slot="description"
@@ -34,10 +34,10 @@
         v-if="error.statusCode === 404"
       )
         p.u-medium
-          | This page could not be found.
+          | Cette page n'a pas été trouvée.
 
         p
-          | Please go back to the homepage and start from there.
+          | Revenez à l'accueil pour retrouver votre chemin.
 
       template(
         v-else
@@ -50,10 +50,10 @@
         p(
           v-else
         )
-          | An unexpected error occurred. Can you try again?
+          | Une erreur inattendue s'est produite. Essayez à nouveau ?
 
         p.u-medium
-          | Error code: {{ error.statusCode }}
+          | Code d'erreur : {{ error.statusCode }}
 
     nuxt-link(
       to="/"
@@ -62,7 +62,7 @@
       base-button(
         size="large"
       )
-        | Go to the home page
+        | Revenir à l'accueil
 </template>
 
 <!-- **********************************************************************
@@ -86,8 +86,8 @@ export default {
     return {
       title:
         this.error.statusCode === 404
-          ? "Page not found"
-          : `${this.error.statusCode} Error`
+          ? "Page non trouvée"
+          : `Erreur ${this.error.statusCode}`
     };
   }
 };
