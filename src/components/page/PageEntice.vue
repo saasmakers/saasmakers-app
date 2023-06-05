@@ -10,14 +10,10 @@
      ********************************************************************** -->
 
 <template lang="pug">
-page-container
-  page-header
-  page-entice
-
-  page-content
-    nuxt
-
-  page-footer
+.c-page-entice
+  page-wrapper
+    .c-page-entice__box
+      | Entice: TODO
 </template>
 
 <!-- **********************************************************************
@@ -26,6 +22,20 @@ page-container
 
 <script>
 export default {
-  name: "DefaultLayout"
+  name: "PageEntice"
 };
 </script>
+
+<!-- **********************************************************************
+     STYLE
+     ********************************************************************** -->
+
+<style lang="scss">
+$c: ".c-page-entice";
+
+.c-page-entice {
+  #{$c}__box {
+    /* TODO */
+  }
+}
+</style>

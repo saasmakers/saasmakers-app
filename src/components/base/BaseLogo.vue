@@ -10,14 +10,7 @@
      ********************************************************************** -->
 
 <template lang="pug">
-page-container
-  page-header
-  page-entice
-
-  page-content
-    nuxt
-
-  page-footer
+.c-base-logo
 </template>
 
 <!-- **********************************************************************
@@ -26,6 +19,18 @@ page-container
 
 <script>
 export default {
-  name: "DefaultLayout"
+  name: "BaseLogo"
 };
 </script>
+
+<!-- **********************************************************************
+     STYLE
+     ********************************************************************** -->
+
+<style lang="scss">
+$c: ".c-base-logo";
+
+.c-base-logo {
+  /* TODO */
+}
+</style>

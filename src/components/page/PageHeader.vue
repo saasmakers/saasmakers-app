@@ -10,14 +10,9 @@
      ********************************************************************** -->
 
 <template lang="pug">
-page-container
-  page-header
-  page-entice
-
-  page-content
-    nuxt
-
-  page-footer
+.c-page-header
+  page-wrapper
+    | Header: TODO
 </template>
 
 <!-- **********************************************************************
@@ -26,6 +21,18 @@ page-container
 
 <script>
 export default {
-  name: "DefaultLayout"
+  name: "PageHeader"
 };
 </script>
+
+<!-- **********************************************************************
+     STYLE
+     ********************************************************************** -->
+
+<style lang="scss">
+$c: ".c-page-header";
+
+.c-page-header {
+  /* TODO */
+}
+</style>
