@@ -239,7 +239,7 @@ export default {
   // Generate options: \
   //   https://nuxtjs.org/docs/configuration-glossary/configuration-generate
   generate: {
-    dir: "build",
+    dir: "dist",
     fallback: "404.html"
   },
 
