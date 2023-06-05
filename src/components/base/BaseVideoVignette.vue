@@ -172,7 +172,7 @@ $c: ".c-base-video-vignette";
         position: absolute;
         top: -3px;
         right: 0;
-        border-radius: 7px;
+        border-radius: 5px;
       }
 
       #{$c}__details-play {
