@@ -139,4 +139,32 @@ $badge-count-line-height: 32px;
     }
   }
 }
+
+// --> MEDIA-QUERIES <--
+
+@media (max-width: $screen-tiny-width-breakpoint) {
+  .c-base-video-title {
+    #{$c}__badge {
+      #{$c}__badge-count {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-lilliput-width-breakpoint) {
+  .c-base-video-title {
+    text-align: center;
+    display: block;
+
+    #{$c}__main {
+      margin-left: -2px;
+      display: inline-block;
+    }
+
+    #{$c}__badge {
+      display: none;
+    }
+  }
+}
 </style>

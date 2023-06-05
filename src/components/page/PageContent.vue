@@ -35,4 +35,13 @@ $c: ".c-page-content";
   padding-top: 80px;
   padding-bottom: 110px;
 }
+
+// --> MEDIA-QUERIES <--
+
+@media (max-width: $screen-tiny-width-breakpoint) {
+  .c-page-content {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+}
 </style>

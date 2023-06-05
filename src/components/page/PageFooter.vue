@@ -217,7 +217,6 @@ $story-avatar-border-width: 4px;
 
       #{$c}__purpose-text {
         color: rgba($color-text-black, 0.8);
-        line-height: 25px;
         margin-top: 11px;
 
         p {
@@ -273,6 +272,25 @@ $story-avatar-border-width: 4px;
             color: $color-base-red-normal;
           }
         }
+      }
+    }
+  }
+}
+
+// --> MEDIA-QUERIES <--
+
+@media (max-width: $screen-lilliput-width-breakpoint) {
+  .c-page-footer {
+    #{$c}__story {
+      flex-direction: column;
+
+      #{$c}__avatars {
+        margin-right: 0;
+      }
+
+      #{$c}__purpose {
+        text-align: center;
+        margin-top: 25px;
       }
     }
   }

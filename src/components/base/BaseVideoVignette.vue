@@ -94,7 +94,7 @@ export default {
   computed: {
     vignetteImageUrl() {
       if (this.id !== null) {
-        return `https://img.youtube.com/vi/${this.id}/mqdefault.jpg`;
+        return `https://img.youtube.com/vi/${this.id}/hqdefault.jpg`;
       }
 
       return null;
