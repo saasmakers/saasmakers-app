@@ -54,69 +54,221 @@
     "title": "Mindset & Skills",
     "icon": "🧠",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "La résilience et la passion"
+      },
+
+      {
+        "title": "L’agilité dans l’exécution"
+      },
+
+      {
+        "title": "Apprendre, rester à jour et partager"
+      },
+
+      {
+        "title": "Savoir pourquoi on fait les choses"
+      },
+
+      {
+        "title": "Prendre soin de sa santé"
+      }
+    ]
   },
 
   {
     "title": "MVP & Produit",
     "icon": "📦",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "Trouver et améliorer sa stack"
+      },
+
+      {
+        "title": "Construire son MVP / POC"
+      },
+
+      {
+        "title": "Comment financer son SaaS pour passer de 0 à 1"
+      },
+
+      {
+        "title": "Construire un bon onboarding pour un SaaS"
+      },
+
+      {
+        "title": "Créer des customer interviews intelligentes"
+      },
+
+      {
+        "title": "Comment pousser ses utilisateurs au feedback"
+      },
+
+      {
+        "title": "Gagner du temps avec les tests"
+      },
+
+      {
+        "title": "Outils : Sentry et GitHub Copilot"
+      },
+
+      {
+        "title": "Outils : Google Cloud Functions"
+      },
+
+      {
+        "title": "Outils : Better Uptime"
+      },
+
+      {
+        "title": "Outils : Cloudflare"
+      },
+
+      {
+        "title": "Freemium vs Free Trial"
+      }
+    ]
   },
 
   {
     "title": "Scaler le produit",
     "icon": "⚡️",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "Scaler une infrastructure scalable et redondante pour tenir la charge"
+      }
+    ]
   },
 
   {
     "title": "Marketing & Growth",
     "icon": "🚀",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "Le funnel AARRR pour un SaaS"
+      },
+
+      {
+        "title": "Les différents canaux d’acquisition pour un SaaS"
+      },
+
+      {
+        "title": "Product Hunt Tips & Tricks"
+      },
+
+      {
+        "title": "AppSumo"
+      }
+    ]
   },
 
   {
     "title": "Analytics & Metrics",
     "icon": "📈",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "Outil : Plausible"
+      },
+
+      {
+        "title": "Outil : Mixpanel & Amplitude"
+      },
+
+      {
+        "title": "Les key metrics pour un SaaS"
+      },
+
+      {
+        "title": "Le churn dans un SaaS"
+      }
+    ]
   },
 
   {
     "title": "Management & Hiring",
     "icon": "👩‍💻",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "Travailler avec des freelances"
+      },
+
+      {
+        "title": "Recruter son premier employé en France"
+      }
+    ]
   },
 
   {
     "title": "Scaling & International",
     "icon": "🗺️",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "Lancer un nouveau pays avec un country manager"
+      },
+
+      {
+        "title": "Make or Buy"
+      }
+    ]
   },
 
   {
     "title": "Seeding & Funding",
     "icon": "💰",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "Le Bootstrapping"
+      },
+
+      {
+        "title": "Les BSPCE"
+      },
+
+      {
+        "title": "Réaliser un seed"
+      },
+
+      {
+        "title": "Faire une Série A"
+      }
+    ]
   },
 
   {
     "title": "Incubateurs, Accélérateurs & VCs",
     "icon": "🏬",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "Station F"
+      },
+
+      {
+        "title": "TechStars New York"
+      },
+
+      {
+        "title": "Y Combinator"
+      }
+    ]
   },
 
   {
     "title": "Interviews & Stories",
     "icon": "💬",
 
-    "videos": []
+    "videos": [
+      {
+        "title": "L’Histoire de Crisp : de 0 à 500k utilisateurs"
+      }
+    ]
   }
 ]
