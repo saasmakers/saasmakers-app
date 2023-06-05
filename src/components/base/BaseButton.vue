@@ -56,7 +56,7 @@ div(
      SCRIPT
      ********************************************************************** -->
 
-<script lang="ts">
+<script>
 // CONSTANTS
 const AVAILABLE_SIZES = {
   small: {
@@ -99,7 +99,7 @@ export default {
       default: "medium",
 
       validator(x) {
-        return Object.keys(AVAILABLE_SIZES);
+        return x in AVAILABLE_SIZES[x];
       }
     },
 
@@ -198,7 +198,7 @@ $size-large-padding-sides: 34px;
     display: flex;
     align-items: center;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 8px;
     transition: all 100ms linear;
     transition-property: transform, box-shadow, background-color, border-color;
 
