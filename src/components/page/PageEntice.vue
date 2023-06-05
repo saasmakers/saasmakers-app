@@ -46,6 +46,7 @@
 
         base-button(
           class="c-page-entice__form-button"
+          button-class="c-page-entice__form-button-inner"
           icon="discord"
         )
           | Je rejoins le Discord !
@@ -131,6 +132,11 @@ $c: ".c-page-entice";
 
       #{$c}__form-button {
         margin-left: 16px;
+
+        #{$c}__form-button-inner {
+          padding-left: 25px;
+          padding-right: 25px;
+        }
       }
     }
   }
