@@ -1,0 +1,48 @@
+/*
+ * SaaS Makers - Web
+ *
+ * Copyright 2023, SaaS Makers
+ * Author: Valerian Saliou https://valeriansaliou.name/
+ */
+
+/* *************************************************************************
+ * UTILITIES > INLINE
+ * **************************************************************************/
+
+.u-bold {
+  font-weight: $font-weight-bold !important;
+}
+
+.u-semibold {
+  font-weight: $font-weight-semibold !important;
+}
+
+.u-medium {
+  font-weight: $font-weight-medium !important;
+}
+
+.u-regular {
+  font-weight: $font-weight-regular !important;
+}
+
+.u-light {
+  font-weight: $font-weight-light !important;
+}
+
+.u-italic {
+  font-style: italic !important;
+}
+
+.u-underline {
+  text-decoration: underline !important;
+}
+
+.u-capitalize {
+  text-transform: capitalize !important;
+}
+
+.u-ellipsis {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}

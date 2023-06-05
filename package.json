@@ -1,23 +1,59 @@
 {
-  "name": "saasmakers-app",
+  "name": "saasmakers-web",
+  "description": "SaaS Makers Website",
+  "version": "1.0.0",
+  "homepage": "https://github.com/saasmakers/saasmakers-web",
+  "license": "UNLICENSED",
   "private": true,
+  "engineStrict": true,
   "engines": {
-    "npm": "9.5.1",
-    "node": "18.16.0"
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saasmakers/saasmakers-web.git"
+  },
+  "author": {
+    "name": "SaaS Makers",
+    "url": "https://www.saasmakers.club/"
   },
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "clean": "rm -rf ./build",
+    "test": "npm run lint",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:js && npm run lint:prettier",
+    "deploy": "./lib/tasks/deploy.sh",
+    "prelude": "./lib/tasks/prelude.sh"
+  },
+  "dependencies": {
+    "core-js": "3.19.3",
+    "nuxt": "2.16.3",
+    "vue": "2.6.14",
+    "vue-server-renderer": "2.6.14",
+    "vue-template-compiler": "2.6.14",
+    "webpack": "4.46.0",
+    "prismjs": "1.29.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.5.1",
-    "@commitlint/config-conventional": "17.4.4",
-    "@nuxtjs/i18n": "8.0.0-beta.10",
-    "@nuxtjs/tailwindcss": "6.6.5",
-    "husky": "8.0.3",
-    "nuxt": "3.3.3"
+    "@babel/eslint-parser": "7.16.3",
+    "@nuxtjs/eslint-config": "8.0.0",
+    "@nuxtjs/eslint-module": "3.0.2",
+    "@nuxtjs/svg": "0.4.0",
+    "@nuxtjs/robots": "2.5.0",
+    "@nuxtjs/sitemap": "2.4.0",
+    "@nuxtjs/style-resources": "1.2.1",
+    "pug": "3.0.2",
+    "sass": "1.49.11",
+    "pug-plain-loader": "1.1.0",
+    "sass-loader": "10.2.1",
+    "eslint": "8.4.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-nuxt": "3.1.0",
+    "eslint-plugin-vue": "8.2.0",
+    "prettier": "2.5.1",
+    "lodash.merge": "4.6.2"
   }
 }
