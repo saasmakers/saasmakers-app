@@ -32,7 +32,6 @@ div(
       }
     ]`
   )
-    //- TODO: add this component
     base-icon(
       v-if="icon"
       :name="icon"
@@ -60,15 +59,15 @@ div(
 // CONSTANTS
 const AVAILABLE_SIZES = {
   small: {
-    icon: "13px"
-  },
-
-  medium: {
     icon: "16px"
   },
 
+  medium: {
+    icon: "22px"
+  },
+
   large: {
-    icon: "17px"
+    icon: "28px"
   }
 };
 
@@ -99,7 +98,7 @@ export default {
       default: "medium",
 
       validator(x) {
-        return x in AVAILABLE_SIZES[x];
+        return x in AVAILABLE_SIZES;
       }
     },
 
@@ -212,7 +211,9 @@ $size-large-padding-sides: 34px;
     }
 
     #{$c}__icon {
-      margin-inline-end: 10px;
+      margin-left: -3px;
+      margin-right: 13px;
+      margin-bottom: -1px;
       flex: 0 0 auto;
     }
 
@@ -300,8 +301,8 @@ $size-large-padding-sides: 34px;
       font-size: 10px;
       line-height: 25px;
       padding-bottom: 1px;
-      padding-inline-start: $size-small-padding-sides;
-      padding-inline-end: $size-small-padding-sides;
+      padding-left: $size-small-padding-sides;
+      padding-right: $size-small-padding-sides;
     }
   }
 
@@ -310,8 +311,8 @@ $size-large-padding-sides: 34px;
       font-size: 12.5px;
       line-height: 40px;
       padding-bottom: 2px;
-      padding-inline-start: $size-medium-padding-sides;
-      padding-inline-end: $size-medium-padding-sides;
+      padding-left: $size-medium-padding-sides;
+      padding-right: $size-medium-padding-sides;
     }
   }
 
@@ -320,8 +321,8 @@ $size-large-padding-sides: 34px;
       font-size: 15px;
       line-height: 48px;
       padding-bottom: 4px;
-      padding-inline-start: $size-large-padding-sides;
-      padding-inline-end: $size-large-padding-sides;
+      padding-left: $size-large-padding-sides;
+      padding-right: $size-large-padding-sides;
     }
   }
 

@@ -63,7 +63,6 @@ export default {
     type: {
       type: String,
       default: "text",
-      required: true,
 
       validator(x) {
         return ["text", "password", "number", "email", "url"].includes(x);
@@ -271,8 +270,8 @@ $form-field-large-padding-sides: 22px;
   &--small {
     #{$c}__inner {
       font-size: 11px;
-      padding-inline-start: $form-field-small-padding-sides;
-      padding-inline-end: $form-field-small-padding-sides;
+      padding-left: $form-field-small-padding-sides;
+      padding-right: $form-field-small-padding-sides;
 
       &--input {
         line-height: 25px;
@@ -283,8 +282,8 @@ $form-field-large-padding-sides: 22px;
   &--medium {
     #{$c}__inner {
       font-size: 12.5px;
-      padding-inline-start: $form-field-medium-padding-sides;
-      padding-inline-end: $form-field-medium-padding-sides;
+      padding-left: $form-field-medium-padding-sides;
+      padding-right: $form-field-medium-padding-sides;
 
       &--input {
         line-height: 42px;
@@ -295,8 +294,8 @@ $form-field-large-padding-sides: 22px;
   &--large {
     #{$c}__inner {
       font-size: 14px;
-      padding-inline-start: $form-field-large-padding-sides;
-      padding-inline-end: $form-field-large-padding-sides;
+      padding-left: $form-field-large-padding-sides;
+      padding-right: $form-field-large-padding-sides;
 
       &--input {
         line-height: 48px;

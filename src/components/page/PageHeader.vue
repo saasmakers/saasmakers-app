@@ -25,6 +25,7 @@
           target="_blank"
         )
           base-button(
+            icon="youtube"
             tint="red"
             borderless
             bolder

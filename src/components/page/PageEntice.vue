@@ -46,6 +46,7 @@
 
         base-button(
           class="c-page-entice__form-button"
+          icon="discord"
         )
           | Je rejoins le Discord !
 </template>
