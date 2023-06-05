@@ -44,7 +44,7 @@ export default {
       default: "white",
 
       validator(x) {
-        return ["white", "black"].includes(x);
+        return ["white", "black", "blue", "red"].includes(x);
       }
     },
 
@@ -105,11 +105,19 @@ $c: ".c-base-icon";
   // --> TINTS <--
 
   &--white {
-    fill: $color-white;
+    fill: $color-base-white-normal;
   }
 
   &--black {
-    fill: $color-black;
+    fill: $color-base-black-normal;
+  }
+
+  &--blue {
+    fill: $color-base-blue-normal;
+  }
+
+  &--red {
+    fill: $color-base-red-normal;
   }
 }
 </style>

@@ -64,7 +64,7 @@ $c: ".c-page-header";
   }
 
   #{$c}__right {
-    padding-left: 20px;
+    padding-left: 12px;
     flex: 0 0 auto;
   }
 }

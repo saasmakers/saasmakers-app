@@ -5,6 +5,11 @@
     "youtube": {
       "handle": "@SaaSMakers",
       "target": "https://www.youtube.com/@SaaSMakers"
+    },
+
+    "discord": {
+      "handle": "SaaS Makers",
+      "target": "#"
     }
   },
 
