@@ -124,13 +124,6 @@ export default {
           label: "YouTube",
           color: "red",
           target: this.$config.platforms.youtube.target
-        },
-
-        {
-          id: "discord",
-          label: "Discord",
-          color: "blue",
-          target: this.$config.platforms.discord.target
         }
       ]
     };
