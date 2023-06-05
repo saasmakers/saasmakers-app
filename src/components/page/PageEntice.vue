@@ -27,7 +27,26 @@
           | Si tu construis un SaaS, rejoins-nous ! Nous avons besoin de connaître ton email et ton site :
 
       .c-page-entice__form
-        base-button
+        form-field(
+          name="name"
+          placeholder="Ton nom?"
+        )
+
+        form-field(
+          type="email"
+          name="email"
+          placeholder="Entre ton email..."
+        )
+
+        form-field(
+          type="url"
+          name="website"
+          placeholder="your-saas-website.com"
+        )
+
+        base-button(
+          class="c-page-entice__form-button"
+        )
           | Je rejoins le Discord !
 </template>
 
@@ -86,6 +105,31 @@ $c: ".c-page-entice";
 
     #{$c}__form {
       margin-top: 25px;
+      padding-right: 60px;
+      display: flex;
+      align-items: center;
+
+      > * {
+        margin-right: 5px;
+        flex: 0 0 auto;
+
+        &:nth-child(1) {
+          flex: 0.25;
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+          flex: 0.3;
+        }
+
+        &:nth-child(4) {
+          flex: 0.15;
+        }
+      }
+
+      #{$c}__form-button {
+        margin-left: 16px;
+      }
     }
   }
 }
