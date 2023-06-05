@@ -244,7 +244,7 @@ $form-field-large-padding-sides: 22px;
     }
 
     &::placeholder {
-      color: $color-text-grey;
+      color: rgba($color-text-grey, 0.8);
       opacity: 1;
     }
 
@@ -309,12 +309,12 @@ $form-field-large-padding-sides: 22px;
     cursor: not-allowed;
 
     #{$c}__inner {
-      background-color: rgba($color-text-grey, 0.6);
+      background-color: rgba($color-text-grey, 0.05);
       color: $color-text-grey;
       pointer-events: none;
 
       &::placeholder {
-        color: $color-text-grey;
+        color: rgba($color-text-grey, 0.6);
       }
     }
   }

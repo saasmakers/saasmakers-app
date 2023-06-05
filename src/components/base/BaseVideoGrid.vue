@@ -10,8 +10,8 @@
      ********************************************************************** -->
 
 <template lang="pug">
-.c-page-content
-  slot
+.c-base-video-grid
+  | TODO: Grid here
 </template>
 
 <!-- **********************************************************************
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: "PageContent"
+  name: "BaseVideoGrid"
 };
 </script>
 
@@ -29,10 +29,9 @@ export default {
      ********************************************************************** -->
 
 <style lang="scss">
-$c: ".c-page-content";
+$c: ".c-base-video-grid";
 
-.c-page-content {
-  padding-top: 80px;
-  padding-bottom: 110px;
+.c-base-video-grid {
+  /* TODO */
 }
 </style>

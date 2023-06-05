@@ -11,8 +11,7 @@
 
 <template lang="pug">
 .p-index
-  page-wrapper
-    | Content: TODO
+  section-home-videos
 </template>
 
 <!-- **********************************************************************
@@ -35,8 +34,4 @@ export default {
 
 <style lang="scss">
 $c: ".p-index";
-
-.p-index {
-  /* TODO */
-}
 </style>

@@ -84,6 +84,7 @@ $c: ".c-page-entice";
       #{$c}__title-icon {
         font-size: 22px;
         vertical-align: middle;
+        user-select: none;
         margin-top: -2px;
         margin-right: 11px;
         display: inline-block;

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Basics pour les SaaS Makers",
+    "icon": "📖",
+
+    "videos": [
+      {
+        "title": "SaaS Backend, Sécurité, Arnaques",
+
+        "speakers": ["Baptiste Jamin", "Valérian Saliou", "Julien Le Coupanec"]
+      }
+    ]
+  }
+]
