@@ -127,7 +127,7 @@ $c: ".c-base-video-vignette";
       #{$c}__details-play {
         height: 30px;
         width: auto;
-        margin-top: -4px;
+        margin-top: -5px;
       }
     }
 
