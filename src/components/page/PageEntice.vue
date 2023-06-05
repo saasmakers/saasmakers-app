@@ -54,7 +54,7 @@ $c: ".c-page-entice";
     border: 1px solid rgba($color-base-black-light, 0.1);
     color: $color-text-black;
     letter-spacing: 0;
-    padding: 34px 45px;
+    padding: 32px 45px;
     border-radius: 12px;
     box-shadow: 0 12px 38px 0 rgba($color-base-black-light, 0.05);
 
