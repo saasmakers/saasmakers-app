@@ -29,6 +29,11 @@ span(
         class="c-base-video-vignette__details-play"
       )
 
+      span.c-base-video-vignette__details-badge.u-semibold(
+        v-else
+      )
+        | Coming soon
+
     .c-base-video-vignette__details-text
       h6.c-base-video-vignette__details-title.u-bold
         | {{ title }}
@@ -123,6 +128,19 @@ $c: ".c-base-video-vignette";
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
+
+      #{$c}__details-badge {
+        background-color: rgba($color-background-white, 0.2);
+        color: rgba($color-text-white, 0.9);
+        font-size: 11.5px;
+        line-height: 26px;
+        padding: 0 12px 1px;
+        position: absolute;
+        top: -3px;
+        right: 0;
+        border-radius: 7px;
+      }
 
       #{$c}__details-play {
         height: 30px;
