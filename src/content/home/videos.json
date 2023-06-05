@@ -5,10 +5,118 @@
 
     "videos": [
       {
-        "title": "SaaS Backend, Sécurité, Arnaques",
+        "title": "Idées de SaaS, Bootstrapping, Erreurs à éviter",
+        "speakers": ["Valérian Saliou", "Julien Le Coupanec"],
+        "id": "3fqOJEtbVNw"
+      },
 
-        "speakers": ["Baptiste Jamin", "Valérian Saliou", "Julien Le Coupanec"]
+      {
+        "title": "SaaS Backend, Sécurité, Arnaques",
+        "speakers": ["Baptiste Jamin", "Valérian Saliou", "Julien Le Coupanec"],
+        "id": "vingWLFhYTQ"
+      },
+
+      {
+        "title": "Comment trouver son ICP pour un SaaS"
+      },
+
+      {
+        "title": "Comment financer ou trouver de l’argent pour son SaaS"
+      },
+
+      {
+        "title": "Passer de 0 à 1 avec un SaaS"
+      },
+
+      {
+        "title": "Les différents stades de la vie d’un SaaS"
+      },
+
+      {
+        "title": "Le guide du solo founder"
+      },
+
+      {
+        "title": "Trouver un co-founder ou CTO pour monter un SaaS"
+      },
+
+      {
+        "title": "Gérer la concurrence"
+      },
+
+      {
+        "title": "Trouver son pricing"
       }
     ]
+  },
+
+  {
+    "title": "Mindset & Skills",
+    "icon": "🧠",
+
+    "videos": []
+  },
+
+  {
+    "title": "MVP & Produit",
+    "icon": "📦",
+
+    "videos": []
+  },
+
+  {
+    "title": "Scaler le produit",
+    "icon": "⚡️",
+
+    "videos": []
+  },
+
+  {
+    "title": "Marketing & Growth",
+    "icon": "🚀",
+
+    "videos": []
+  },
+
+  {
+    "title": "Analytics & Metrics",
+    "icon": "📈",
+
+    "videos": []
+  },
+
+  {
+    "title": "Management & Hiring",
+    "icon": "👩‍💻",
+
+    "videos": []
+  },
+
+  {
+    "title": "Scaling & International",
+    "icon": "🗺️",
+
+    "videos": []
+  },
+
+  {
+    "title": "Seeding & Funding",
+    "icon": "💰",
+
+    "videos": []
+  },
+
+  {
+    "title": "Incubateurs, Accélérateurs & VCs",
+    "icon": "🏬",
+
+    "videos": []
+  },
+
+  {
+    "title": "Interviews & Stories",
+    "icon": "💬",
+
+    "videos": []
   }
 ]

@@ -126,7 +126,7 @@ $badge-count-line-height: 32px;
       color: rgba($color-text-black, 0.6);
       font-size: 12px;
       line-height: $badge-count-line-height;
-      padding: 0 20px;
+      padding: 0 18px;
       flex: 0 0 auto;
       border-radius: $badge-count-line-height;
     }

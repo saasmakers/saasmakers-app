@@ -11,7 +11,7 @@
 
 <template lang="pug">
 .c-base-video-grid
-  | TODO: Grid here
+  slot
 </template>
 
 <!-- **********************************************************************
@@ -32,6 +32,9 @@ export default {
 $c: ".c-base-video-grid";
 
 .c-base-video-grid {
-  /* TODO */
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 16px;
+  display: grid;
 }
 </style>
