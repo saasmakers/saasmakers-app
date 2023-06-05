@@ -16,6 +16,7 @@
       .c-page-header__left
         nuxt-link(
           to="/"
+          class="c-page-header__logo"
         )
           base-logo
 
@@ -56,6 +57,18 @@ $c: ".c-page-header";
     padding: 24px 0 36px;
     display: flex;
     align-items: center;
+  }
+
+  #{$c}__logo {
+    transition: filter 100ms linear;
+
+    &:hover {
+      filter: brightness(1.75);
+    }
+
+    &:active {
+      filter: brightness(1.25);
+    }
   }
 
   #{$c}__left {
