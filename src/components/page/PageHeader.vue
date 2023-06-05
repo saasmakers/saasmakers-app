@@ -14,7 +14,10 @@
   page-wrapper
     .c-page-header__inner
       .c-page-header__left
-        base-logo
+        nuxt-link(
+          to="/"
+        )
+          base-logo
 
       .c-page-header__right
         //- TODO
@@ -39,6 +42,7 @@ $c: ".c-page-header";
 
 .c-page-header {
   #{$c}__inner {
+    padding: 30px 0;
     display: flex;
     align-items: center;
   }
