@@ -39,7 +39,7 @@ export default {
 $c: ".c-base-logo";
 
 // VARIABLES
-$icon-size: 30px;
+$icon-size: 34px;
 
 .c-base-logo {
   display: flex;
@@ -57,13 +57,13 @@ $icon-size: 30px;
     background-size: contain;
     width: $icon-size;
     height: $icon-size;
-    margin-right: 11px;
+    margin-right: 9px;
     display: inline-block;
   }
 
   #{$c}__brand {
     width: auto;
-    height: 18px;
+    height: 17px;
   }
 }
 </style>
