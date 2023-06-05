@@ -1,0 +1,48 @@
+/*
+ * SaaS Makers - Web
+ *
+ * Copyright 2023, SaaS Makers
+ * Author: Valerian Saliou https://valeriansaliou.name/
+ */
+
+/* *************************************************************************
+ * ELEMENTS > FONTS
+ * **************************************************************************/
+
+// Montserrat
+
+@font-face {
+  font-weight: $font-weight-light;
+  font-style: normal;
+  font-family: $font-family-default;
+  src: url("~/assets/fonts/montserrat/montserrat_light.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: $font-weight-regular;
+  font-style: normal;
+  font-family: $font-family-default;
+  src: url("~/assets/fonts/montserrat/montserrat_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: $font-weight-medium;
+  font-style: normal;
+  font-family: $font-family-default;
+  src: url("~/assets/fonts/montserrat/montserrat_medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: $font-weight-semibold;
+  font-style: normal;
+  font-family: $font-family-default;
+  src: url("~/assets/fonts/montserrat/montserrat_semibold.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-weight: $font-weight-bold;
+  font-style: normal;
+  font-family: $font-family-default;
+  src: url("~/assets/fonts/montserrat/montserrat_bold.woff2") format("woff2");
+}

@@ -1,0 +1,18 @@
+/*
+ * SaaS Makers - Web
+ *
+ * Copyright 2023, SaaS Makers
+ * Author: Valerian Saliou https://valeriansaliou.name/
+ */
+
+/* *************************************************************************
+ * ELEMENTS > INLINE
+ * **************************************************************************/
+
+a {
+  outline: 0;
+  color: $color-base-purple-normal;
+  text-decoration: none;
+  transition: color linear 100ms;
+  cursor: pointer;
+}

@@ -1,42 +1,29 @@
-# Nuxt 3 Minimal Starter
+# saasmakers-web
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+SaaS Makers website.
 
-## Setup
+**Copyright 2023, SaaS Makers**
 
-Make sure to install the dependencies:
+## Build Setup
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
+Built with [Nuxt](https://nuxtjs.org/). See the commands below for reference on how to build the website, or develop.
 
 ```bash
-npm run dev
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build static assets for production
+$ npm run build
+
+# run all tests
+$ npm test
+
+# run lints
+$ npm run lint
+
+# clean all static assets previously built
+$ npm run clean
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

@@ -1,0 +1,274 @@
+[
+  {
+    "title": "Basics pour les SaaS Makers",
+    "icon": "📖",
+
+    "videos": [
+      {
+        "title": "Idées de SaaS, Bootstrapping, Erreurs à éviter",
+        "speakers": ["Julien & Valerian"],
+        "id": "3fqOJEtbVNw"
+      },
+
+      {
+        "title": "SaaS Backend, Sécurité, Arnaques",
+        "speakers": ["Baptiste Jamin", "Julien & Valerian"],
+        "id": "vingWLFhYTQ"
+      },
+
+      {
+        "title": "Comment trouver son ICP pour un SaaS"
+      },
+
+      {
+        "title": "Comment financer ou trouver de l’argent pour son SaaS"
+      },
+
+      {
+        "title": "Passer de 0 à 1 avec un SaaS"
+      },
+
+      {
+        "title": "Les différents stades de la vie d’un SaaS"
+      },
+
+      {
+        "title": "Le guide du solo founder"
+      },
+
+      {
+        "title": "Trouver un co-founder ou CTO pour monter un SaaS"
+      },
+
+      {
+        "title": "Gérer la concurrence"
+      },
+
+      {
+        "title": "Trouver son pricing"
+      }
+    ]
+  },
+
+  {
+    "title": "Mindset & Skills",
+    "icon": "🧠",
+
+    "videos": [
+      {
+        "title": "La résilience et la passion"
+      },
+
+      {
+        "title": "L’agilité dans l’exécution"
+      },
+
+      {
+        "title": "Apprendre, rester à jour et partager"
+      },
+
+      {
+        "title": "Savoir pourquoi on fait les choses"
+      },
+
+      {
+        "title": "Prendre soin de sa santé"
+      }
+    ]
+  },
+
+  {
+    "title": "MVP & Produit",
+    "icon": "📦",
+
+    "videos": [
+      {
+        "title": "Trouver et améliorer sa stack"
+      },
+
+      {
+        "title": "Construire son MVP / POC"
+      },
+
+      {
+        "title": "Comment financer son SaaS pour passer de 0 à 1"
+      },
+
+      {
+        "title": "Construire un bon onboarding pour un SaaS"
+      },
+
+      {
+        "title": "Créer des customer interviews intelligentes"
+      },
+
+      {
+        "title": "Comment pousser ses utilisateurs au feedback"
+      },
+
+      {
+        "title": "Gagner du temps avec les tests"
+      },
+
+      {
+        "title": "Outils : Sentry et GitHub Copilot"
+      },
+
+      {
+        "title": "Outils : Google Cloud Functions"
+      },
+
+      {
+        "title": "Outils : Better Uptime"
+      },
+
+      {
+        "title": "Outils : Cloudflare"
+      },
+
+      {
+        "title": "Freemium vs Free Trial"
+      }
+    ]
+  },
+
+  {
+    "title": "Scaler le produit",
+    "icon": "⚡️",
+
+    "videos": [
+      {
+        "title": "Scaler une infrastructure scalable et redondante pour tenir la charge"
+      }
+    ]
+  },
+
+  {
+    "title": "Marketing & Growth",
+    "icon": "🚀",
+
+    "videos": [
+      {
+        "title": "Le funnel AARRR pour un SaaS"
+      },
+
+      {
+        "title": "Les différents canaux d’acquisition pour un SaaS"
+      },
+
+      {
+        "title": "Product Hunt Tips & Tricks"
+      },
+
+      {
+        "title": "AppSumo"
+      }
+    ]
+  },
+
+  {
+    "title": "Analytics & Metrics",
+    "icon": "📈",
+
+    "videos": [
+      {
+        "title": "Outil : Plausible"
+      },
+
+      {
+        "title": "Outil : Mixpanel & Amplitude"
+      },
+
+      {
+        "title": "Les key metrics pour un SaaS"
+      },
+
+      {
+        "title": "Le churn dans un SaaS"
+      }
+    ]
+  },
+
+  {
+    "title": "Management & Hiring",
+    "icon": "👩‍💻",
+
+    "videos": [
+      {
+        "title": "Travailler avec des freelances"
+      },
+
+      {
+        "title": "Recruter son premier employé en France"
+      }
+    ]
+  },
+
+  {
+    "title": "Scaling & International",
+    "icon": "🗺️",
+
+    "videos": [
+      {
+        "title": "Lancer un nouveau pays avec un country manager"
+      },
+
+      {
+        "title": "Make or Buy"
+      }
+    ]
+  },
+
+  {
+    "title": "Seeding & Funding",
+    "icon": "💰",
+
+    "videos": [
+      {
+        "title": "Le Bootstrapping"
+      },
+
+      {
+        "title": "Les BSPCE"
+      },
+
+      {
+        "title": "Réaliser un seed"
+      },
+
+      {
+        "title": "Faire une Série A"
+      }
+    ]
+  },
+
+  {
+    "title": "Incubateurs, Accélérateurs & VCs",
+    "icon": "🏬",
+
+    "videos": [
+      {
+        "title": "Station F"
+      },
+
+      {
+        "title": "TechStars New York"
+      },
+
+      {
+        "title": "Y Combinator"
+      }
+    ]
+  },
+
+  {
+    "title": "Interviews & Stories",
+    "icon": "💬",
+
+    "videos": [
+      {
+        "title": "L’Histoire de Crisp : de 0 à 500k utilisateurs"
+      }
+    ]
+  }
+]

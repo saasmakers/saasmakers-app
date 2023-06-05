@@ -1,0 +1,28 @@
+/*
+ * SaaS Makers - Web
+ *
+ * Copyright 2023, SaaS Makers
+ * Author: Valerian Saliou https://valeriansaliou.name/
+ */
+
+/* *************************************************************************
+ * VARIABLES > SIZES
+ * **************************************************************************/
+
+// Page
+
+$page-wrapper-max-width: 1240px;
+
+$page-wrapper-default-padding-sides: 128px;
+$page-wrapper-medium-padding-sides: 64px;
+$page-wrapper-small-padding-sides: 24px;
+$page-wrapper-tiny-padding-sides: 20px;
+$page-wrapper-lilliput-padding-sides: 16px;
+
+// Screen
+
+$screen-large-width-breakpoint: $page-wrapper-max-width;
+$screen-medium-width-breakpoint: 1020px;
+$screen-small-width-breakpoint: 880px;
+$screen-tiny-width-breakpoint: 640px;
+$screen-lilliput-width-breakpoint: 540px;
