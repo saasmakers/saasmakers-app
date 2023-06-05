@@ -6,13 +6,13 @@
     "videos": [
       {
         "title": "Idées de SaaS, Bootstrapping, Erreurs à éviter",
-        "speakers": ["Valerian Saliou", "Julien Le Coupanec"],
+        "speakers": ["Julien & Valerian"],
         "id": "3fqOJEtbVNw"
       },
 
       {
         "title": "SaaS Backend, Sécurité, Arnaques",
-        "speakers": ["Baptiste Jamin", "Valerian Saliou", "Julien Le Coupanec"],
+        "speakers": ["Baptiste Jamin", "Julien & Valerian"],
         "id": "vingWLFhYTQ"
       },
 
