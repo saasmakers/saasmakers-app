@@ -57,11 +57,18 @@ export default {
 
   computed: {
     badgeText() {
-      if (this.count === 1) {
-        return "1 vidéo";
+      // Empty?
+      if (this.count === 0) {
+        return "Vide";
       }
 
-      return `${this.count} vidéos`;
+      // Singular?
+      if (this.count === 1) {
+        return "1 sujet";
+      }
+
+      // Plural
+      return `${this.count} sujets`;
     }
   }
 };

@@ -147,7 +147,7 @@ $c: ".c-page-footer";
 
 // VARIABLES
 $story-avatar-size: 68px;
-$story-avatar-border-width: 5px;
+$story-avatar-border-width: 4px;
 
 .c-page-footer {
   padding: 28px 0;
