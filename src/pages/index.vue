@@ -11,7 +11,8 @@
 
 <template lang="pug">
 .p-index
-  //- TODO
+  page-wrapper
+    | Content: TODO
 </template>
 
 <!-- **********************************************************************
