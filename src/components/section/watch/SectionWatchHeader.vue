@@ -83,16 +83,19 @@ $c: ".c-section-watch-header";
     #{$c}__title {
       color: $color-text-white;
       font-size: 19px;
+      line-height: 24px;
     }
 
     #{$c}__speakers {
       color: rgba($color-text-white, 0.6);
       font-size: 15px;
-      margin-top: 13px;
+      line-height: 19px;
+      margin-top: 9px;
     }
   }
 
   #{$c}__actions {
+    margin-left: 12px;
     flex: 0 0 auto;
 
     #{$c}__action {

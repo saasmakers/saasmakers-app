@@ -20,6 +20,7 @@
   section-watch-video(
     :id="'vingWLFhYTQ'"
     class="p-watch-index__video"
+    controls-class="p-watch-index__video-controls"
   )
 </template>
 
@@ -72,6 +73,66 @@ $c: ".p-watch-index";
   #{$c}__video {
     padding-bottom: 24px;
     flex: 1;
+  }
+}
+
+// --> MEDIA-QUERIES <--
+
+@media (max-width: $screen-medium-width-breakpoint) {
+  .p-watch-index {
+    padding: 34px 36px;
+
+    #{$c}__header {
+      margin-bottom: 38px;
+    }
+  }
+}
+
+@media (max-width: $screen-small-width-breakpoint) {
+  .p-watch-index {
+    padding: 30px 30px;
+
+    #{$c}__header {
+      margin-bottom: 34px;
+    }
+  }
+}
+
+@media (max-width: $screen-tiny-width-breakpoint) {
+  .p-watch-index {
+    padding: 28px 24px;
+
+    #{$c}__header {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: $screen-lilliput-width-breakpoint) {
+  .p-watch-index {
+    padding: 24px 16px;
+
+    #{$c}__header {
+      margin-bottom: 26px;
+    }
+  }
+}
+
+@media (max-height: 800px) {
+  .p-watch-index {
+    padding: 12px 14px;
+
+    #{$c}__header {
+      margin-bottom: 20px;
+    }
+
+    #{$c}__video {
+      padding-bottom: 0;
+
+      #{$c}__video-controls {
+        display: none;
+      }
+    }
   }
 }
 </style>

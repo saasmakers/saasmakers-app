@@ -18,7 +18,14 @@
     class="c-section-watch-video__frame"
   )
 
-  .c-section-watch-video__controls
+  div(
+    :class=`[
+      "c-section-watch-video__controls",
+      {
+        [controlsClass]: controlsClass
+      }
+    ]`
+  )
     .c-section-watch-video__left
       a.c-section-watch-video__control.u-medium(
         :href="controlOpenUrl"
@@ -57,6 +64,11 @@ export default {
     id: {
       type: String,
       required: true
+    },
+
+    controlsClass: {
+      type: String,
+      default: null
     }
   },
 
