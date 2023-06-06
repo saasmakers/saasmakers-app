@@ -28,23 +28,27 @@
 
       .c-page-entice__form
         form-field(
+          :disabled="isFormDisabled"
           name="name"
           placeholder="Ton nom?"
         )
 
         form-field(
+          :disabled="isFormDisabled"
           type="email"
           name="email"
           placeholder="Entre ton email..."
         )
 
         form-field(
+          :disabled="isFormDisabled"
           type="url"
           name="website"
           placeholder="your-saas-website.com"
         )
 
         base-button(
+          :disabled="isFormDisabled"
           class="c-page-entice__form-button"
           button-class="c-page-entice__form-button-inner"
           icon="discord"
@@ -58,7 +62,15 @@
 
 <script>
 export default {
-  name: "PageEntice"
+  name: "PageEntice",
+
+  data() {
+    return {
+      // --> STATE <--
+
+      isFormDisabled: true
+    };
+  }
 };
 </script>
 
