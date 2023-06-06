@@ -10,7 +10,7 @@
      ********************************************************************** -->
 
 <template lang="pug">
-div(
+span(
   :class=`[
     "c-base-icon",
     "c-base-icon--" + tint
@@ -20,7 +20,7 @@ div(
     width: size
   }`
 )
-  .c-base-icon__icon(
+  span.c-base-icon__icon(
     v-if="iconHtml"
     v-html="iconHtml"
   )
@@ -34,6 +34,7 @@ div(
 // PROJECT: IMAGES
 import ImageIconYouTube from "~/assets/images/components/base/BaseIcon/youtube.svg?raw";
 import ImageIconDiscord from "~/assets/images/components/base/BaseIcon/discord.svg?raw";
+import ImageIconOpenExternal from "~/assets/images/components/base/BaseIcon/open-external.svg?raw";
 
 export default {
   name: "BaseIcon",
@@ -53,7 +54,7 @@ export default {
       required: true,
 
       validator(x) {
-        return ["youtube", "discord"].includes(x);
+        return ["youtube", "discord", "open-external"].includes(x);
       }
     },
 
@@ -72,6 +73,10 @@ export default {
 
         case "discord": {
           return ImageIconDiscord;
+        }
+
+        case "open-external": {
+          return ImageIconOpenExternal;
         }
 
         default: {

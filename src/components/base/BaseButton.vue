@@ -157,6 +157,11 @@ export default {
   methods: {
     // --> EVENT LISTENERS <--
 
+    /**
+     * Triggers on inner button click
+     * @public
+     * @return {undefined}
+     */
     onInnerClick(event) {
       // Re-emit click event
       this.$emit("click", event);

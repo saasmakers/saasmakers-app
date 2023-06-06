@@ -141,6 +141,11 @@ export default {
   methods: {
     // --> HELPERS <--
 
+    /**
+     * Triggers when field is focused
+     * @public
+     * @return {undefined}
+     */
     focusField() {
       const field = this.$refs.field || null;
 

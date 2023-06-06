@@ -10,15 +10,11 @@
      ********************************************************************** -->
 
 <template lang="pug">
-div(
-  :class=`[
-    "c-page-container",
-    {
-      "c-page-container--fullscreen": fullscreen
-    }
-  ]`
+page-container(
+  class="l-theater"
+  fullscreen
 )
-  slot
+  nuxt
 </template>
 
 <!-- **********************************************************************
@@ -27,14 +23,7 @@ div(
 
 <script>
 export default {
-  name: "PageContainer",
-
-  props: {
-    fullscreen: {
-      type: Boolean,
-      default: false
-    }
-  }
+  name: "TheaterLayout"
 };
 </script>
 
@@ -43,16 +32,10 @@ export default {
      ********************************************************************** -->
 
 <style lang="scss">
-$c: ".c-page-container";
+$c: ".l-theater";
 
-.c-page-container {
-  position: relative;
-
-  // --> BOOLEANS <--
-
-  &--fullscreen {
-    position: absolute;
-    inset: 0;
-  }
+.l-theater {
+  background-color: $color-base-black-normal;
+  color: $color-text-white;
 }
 </style>
