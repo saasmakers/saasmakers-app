@@ -34,7 +34,6 @@ span(
 // PROJECT: IMAGES
 import ImageIconYouTube from "~/assets/images/components/base/BaseIcon/youtube.svg?raw";
 import ImageIconDiscord from "~/assets/images/components/base/BaseIcon/discord.svg?raw";
-import ImageIconOpenExternal from "~/assets/images/components/base/BaseIcon/open-external.svg?raw";
 
 export default {
   name: "BaseIcon",
@@ -54,7 +53,7 @@ export default {
       required: true,
 
       validator(x) {
-        return ["youtube", "discord", "open-external"].includes(x);
+        return ["youtube", "discord"].includes(x);
       }
     },
 
@@ -73,10 +72,6 @@ export default {
 
         case "discord": {
           return ImageIconDiscord;
-        }
-
-        case "open-external": {
-          return ImageIconOpenExternal;
         }
 
         default: {
