@@ -23,29 +23,9 @@
         p
           | Boostrapper son SaaS est une activité où l’on est souvent seul. Il existe pourtant beaucoup de SaaS Makers comme toi, à toute étape de la construction de leur produit. Nous avons créé un Discord pour échanger et organiser des évènements IRL.
 
-        p.u-medium
-          | Si tu construis un SaaS, rejoins-nous ! Nous avons besoin de connaître ton email et ton site :
-
       .c-page-entice__form
-        form-field(
-          :disabled="isFormDisabled"
-          name="name"
-          placeholder="Ton nom?"
-        )
-
-        form-field(
-          :disabled="isFormDisabled"
-          type="email"
-          name="email"
-          placeholder="Entre ton email..."
-        )
-
-        form-field(
-          :disabled="isFormDisabled"
-          type="url"
-          name="website"
-          placeholder="your-saas-website.com"
-        )
+        p.c-page-entice__form-label.u-semibold
+          | Si tu construis un SaaS, rejoins-nous :
 
         base-button(
           :disabled="isFormDisabled"
@@ -119,31 +99,19 @@ $c: ".c-page-entice";
     }
 
     #{$c}__form {
-      margin-top: 25px;
-      padding-right: 60px;
+      margin-top: 24px;
       display: flex;
       align-items: center;
+      justify-content: center;
 
-      > * {
-        margin-right: 5px;
-        flex: 0 0 auto;
-
-        &:nth-child(1) {
-          flex: 0.25;
-        }
-
-        &:nth-child(2),
-        &:nth-child(3) {
-          flex: 0.3;
-        }
-
-        &:nth-child(4) {
-          flex: 0.15;
-        }
+      #{$c}__form-label {
+        font-size: 13px;
+        line-height: 17px;
+        margin-right: 26px;
       }
 
       #{$c}__form-button {
-        margin-left: 16px;
+        flex: 0 0 auto;
 
         #{$c}__form-button-inner {
           padding-left: 25px;
@@ -156,36 +124,10 @@ $c: ".c-page-entice";
 
 // --> MEDIA-QUERIES <--
 
-@media (max-width: $screen-medium-width-breakpoint) {
-  .c-page-entice {
-    #{$c}__box {
-      #{$c}__form {
-        padding-right: 0;
-      }
-    }
-  }
-}
-
 @media (max-width: $screen-small-width-breakpoint) {
   .c-page-entice {
     #{$c}__box {
       padding: 30px 36px;
-
-      #{$c}__form {
-        padding: 0 80px;
-        flex-direction: column;
-
-        > * {
-          width: 100%;
-          margin-bottom: 5px;
-          flex: 1;
-        }
-
-        #{$c}__form-button {
-          margin-left: 0;
-          margin-top: 8px;
-        }
-      }
     }
   }
 }
@@ -196,7 +138,12 @@ $c: ".c-page-entice";
       padding: 28px 30px;
 
       #{$c}__form {
-        padding: 0 40px;
+        flex-direction: column;
+
+        #{$c}__form-label {
+          margin-bottom: 12px;
+          margin-right: 0;
+        }
       }
     }
   }
@@ -207,10 +154,6 @@ $c: ".c-page-entice";
     #{$c}__box {
       text-align: center;
       padding: 26px 24px;
-
-      #{$c}__form {
-        padding: 0 10px;
-      }
     }
   }
 }
