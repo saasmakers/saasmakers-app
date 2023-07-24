@@ -58,6 +58,12 @@
 
     "videos": [
       {
+        "title": "Intelligence Artificielle, Hugging Face, Révolution IA",
+        "speakers": ["Baptiste Jamin", "Julien & Valerian"],
+        "id": "pqhUyjjpNJs"
+      },
+
+      {
         "title": "La résilience et la passion"
       },
 
