@@ -6,20 +6,26 @@
     "videos": [
       {
         "title": "Idées de SaaS, Bootstrapping, Erreurs à éviter",
-        "speakers": ["Julien & Valerian"],
+        "speakers": ["Valérian Saliou", "Julien Le Coupanec"],
         "id": "3fqOJEtbVNw"
       },
 
       {
         "title": "SaaS Backend, Sécurité, Arnaques",
-        "speakers": ["Baptiste Jamin", "Julien & Valerian"],
+        "speakers": ["Baptiste Jamin", "Valérian Saliou", "Julien Le Coupanec"],
         "id": "vingWLFhYTQ"
       },
 
       {
         "title": "Passer de 0 à 1 avec un SaaS",
-        "speakers": ["François-Guillaume Ribreau", "Julien & Valerian"],
+        "speakers": ["François-Guillaume Ribreau", "Valérian Saliou", "Julien Le Coupanec"],
         "id": "nvhdnUYxbqg"
+      },
+
+      {
+        "title": "Le guide du solo founder",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "hdjQ2Sdoxks"
       },
 
       {
@@ -27,15 +33,11 @@
       },
 
       {
-        "title": "Comment financer ou trouver de l’argent pour son SaaS"
+        "title": "Comment financer ou trouver de l'argent pour son SaaS"
       },
 
       {
-        "title": "Les différents stades de la vie d’un SaaS"
-      },
-
-      {
-        "title": "Le guide du solo founder"
+        "title": "Les différents stades de la vie d'un SaaS"
       },
 
       {
@@ -59,16 +61,18 @@
     "videos": [
       {
         "title": "Intelligence Artificielle, Hugging Face, Révolution IA",
-        "speakers": ["Baptiste Jamin", "Julien & Valerian"],
+        "speakers": ["Baptiste Jamin", "Valérian Saliou", "Julien Le Coupanec"],
         "id": "pqhUyjjpNJs"
       },
 
       {
-        "title": "La résilience et la passion"
+        "title": "La résilience et la passion",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "9BKkkb4oj9Y"
       },
 
       {
-        "title": "L’agilité dans l’exécution"
+        "title": "L'agilité dans l'exécution"
       },
 
       {
@@ -123,6 +127,24 @@
       },
 
       {
+        "title": "Outils : GitHub Copilot",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "ptStXNPtzGU"
+      },
+
+      {
+        "title": "Outils : Raycast",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "hruSnst8Nnw"
+      },
+
+      {
+        "title": "Outils : Playground AI",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "JWZB6rupeAw"
+      },
+
+      {
         "title": "Outils : Google Cloud Functions"
       },
 
@@ -157,16 +179,19 @@
 
     "videos": [
       {
+        "title": "Product Hunt Tips & Tricks",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "5MmwAO7FHIk"
+      },
+
+      {
         "title": "Le funnel AARRR pour un SaaS"
       },
 
       {
-        "title": "Les différents canaux d’acquisition pour un SaaS"
+        "title": "Les différents canaux d'acquisition pour un SaaS"
       },
 
-      {
-        "title": "Product Hunt Tips & Tricks"
-      },
 
       {
         "title": "AppSumo"
@@ -180,7 +205,9 @@
 
     "videos": [
       {
-        "title": "Outil : Plausible"
+        "title": "Outil : Plausible",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "Vun6JR1Vra4"
       },
 
       {
@@ -233,7 +260,9 @@
 
     "videos": [
       {
-        "title": "Le Bootstrapping"
+        "title": "Le Bootstrapping",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "7J6iqLGjnOo"
       },
 
       {
@@ -270,12 +299,13 @@
   },
 
   {
-    "title": "Interviews & Stories",
-    "icon": "💬",
-
+    "title": "Livres & Must-Reads",
+    "icon": "📚",
     "videos": [
       {
-        "title": "L’Histoire de Crisp : de 0 à 500k utilisateurs"
+        "title": "From Impossible to Inevitable",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "r5jedQPs3xY"
       }
     ]
   }
