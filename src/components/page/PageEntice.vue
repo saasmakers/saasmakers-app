@@ -28,10 +28,10 @@
           | Si tu construis un SaaS, rejoins-nous :
 
         base-button(
-          :disabled="isFormDisabled"
           class="c-page-entice__form-button"
           button-class="c-page-entice__form-button-inner"
           icon="discord"
+          @click="onJoinDiscordClick"
         )
           | Je rejoins le Discord !
 </template>
@@ -44,13 +44,13 @@
 export default {
   name: "PageEntice",
 
-  data() {
-    return {
-      // --> STATE <--
+  methods: {
+    // --> ACTIONS <--
 
-      isFormDisabled: true
-    };
-  }
+    onJoinDiscordClick() {
+      window.open("https://www.linkedin.com/in/lecoupa/", "_blank");
+    }
+  },
 };
 </script>
 
