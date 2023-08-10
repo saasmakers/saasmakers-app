@@ -23,12 +23,6 @@
       },
 
       {
-        "title": "Le guide du solo founder",
-        "speakers": ["Julien Le Coupanec"],
-        "id": "hdjQ2Sdoxks"
-      },
-
-      {
         "title": "Comment trouver son ICP pour un SaaS"
       },
 
@@ -69,6 +63,14 @@
         "title": "La résilience et la passion",
         "speakers": ["Julien Le Coupanec"],
         "id": "9BKkkb4oj9Y"
+      },
+
+      {
+        "title": "Le guide du solo founder",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "hdjQ2Sdoxks"
       },
 
       {
