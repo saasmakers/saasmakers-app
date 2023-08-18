@@ -18,7 +18,13 @@
 
       {
         "title": "Passer de 0 à 1 avec un SaaS",
-        "speakers": ["François-Guillaume Ribreau", "Valérian Saliou", "Julien Le Coupanec"],
+
+        "speakers": [
+          "François-Guillaume Ribreau",
+          "Valérian Saliou",
+          "Julien Le Coupanec"
+        ],
+
         "id": "nvhdnUYxbqg"
       },
 
@@ -67,9 +73,7 @@
 
       {
         "title": "Le guide du solo founder",
-        "speakers": [
-          "Julien Le Coupanec"
-        ],
+        "speakers": ["Julien Le Coupanec"],
         "id": "hdjQ2Sdoxks"
       },
 
@@ -193,7 +197,6 @@
       {
         "title": "Les différents canaux d'acquisition pour un SaaS"
       },
-
 
       {
         "title": "AppSumo"
