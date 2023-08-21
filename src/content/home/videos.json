@@ -101,6 +101,15 @@
 
     "videos": [
       {
+        "title": "CI/CD, Testing, Storybook & ChatGPT",
+        "speakers": [
+          "Baptiste Jamin",
+          "Julien Le Coupanec"
+        ],
+        "id": "iTOlGZZ9-VI"
+      },
+
+      {
         "title": "Trouver et améliorer sa stack"
       },
 
