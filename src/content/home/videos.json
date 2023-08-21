@@ -18,7 +18,13 @@
 
       {
         "title": "Passer de 0 à 1 avec un SaaS",
-        "speakers": ["François-Guillaume Ribreau", "Valérian Saliou", "Julien Le Coupanec"],
+
+        "speakers": [
+          "François-Guillaume Ribreau",
+          "Valérian Saliou",
+          "Julien Le Coupanec"
+        ],
+
         "id": "nvhdnUYxbqg"
       },
 
@@ -67,9 +73,7 @@
 
       {
         "title": "Le guide du solo founder",
-        "speakers": [
-          "Julien Le Coupanec"
-        ],
+        "speakers": ["Julien Le Coupanec"],
         "id": "hdjQ2Sdoxks"
       },
 
@@ -96,6 +100,15 @@
     "icon": "📦",
 
     "videos": [
+      {
+        "title": "CI/CD, Testing, Storybook & ChatGPT",
+        "speakers": [
+          "Baptiste Jamin",
+          "Julien Le Coupanec"
+        ],
+        "id": "iTOlGZZ9-VI"
+      },
+
       {
         "title": "Trouver et améliorer sa stack"
       },
@@ -193,7 +206,6 @@
       {
         "title": "Les différents canaux d'acquisition pour un SaaS"
       },
-
 
       {
         "title": "AppSumo"
@@ -301,7 +313,7 @@
   },
 
   {
-    "title": "Livres & Must-Reads",
+    "title": "Livres & Podcasts",
     "icon": "📚",
     "videos": [
       {
