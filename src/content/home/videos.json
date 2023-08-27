@@ -110,6 +110,30 @@
       },
 
       {
+        "title": "Outils : GitHub Copilot",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "ptStXNPtzGU"
+      },
+
+      {
+        "title": "Outils : Raycast",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "hruSnst8Nnw"
+      },
+
+      {
+        "title": "Outils : Playground AI",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "JWZB6rupeAw"
+      },
+
+      {
         "title": "Trouver et améliorer sa stack"
       },
 
@@ -139,24 +163,6 @@
 
       {
         "title": "Outils : Sentry et GitHub Copilot"
-      },
-
-      {
-        "title": "Outils : GitHub Copilot",
-        "speakers": ["Julien Le Coupanec"],
-        "id": "ptStXNPtzGU"
-      },
-
-      {
-        "title": "Outils : Raycast",
-        "speakers": ["Julien Le Coupanec"],
-        "id": "hruSnst8Nnw"
-      },
-
-      {
-        "title": "Outils : Playground AI",
-        "speakers": ["Julien Le Coupanec"],
-        "id": "JWZB6rupeAw"
       },
 
       {
@@ -321,6 +327,7 @@
         "speakers": ["Julien Le Coupanec"],
         "id": "r5jedQPs3xY"
       },
+
       {
         "title": "SaaS Club",
         "speakers": ["Julien Le Coupanec"],
