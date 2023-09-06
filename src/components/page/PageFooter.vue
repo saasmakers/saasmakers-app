@@ -56,8 +56,8 @@
           p
             | Chaque mois, nous parlons d’un sujet SaaS avec un expert du domaine.
 
-          p
-            | Notre mission est d’aider et de fédérer les SaaS Makers, autour d’une communauté sur Discord.
+          //- p
+          //-   | Notre mission est d’aider et de fédérer les SaaS Makers, autour d’une communauté sur Discord.
 
     .c-page-footer__details
       .c-page-footer__left

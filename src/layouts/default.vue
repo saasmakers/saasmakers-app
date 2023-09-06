@@ -12,7 +12,7 @@
 <template lang="pug">
 page-container
   page-header
-  page-entice
+  //- page-entice
 
   page-content
     nuxt
