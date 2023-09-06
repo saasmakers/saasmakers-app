@@ -32,7 +32,7 @@ export default {
 $c: ".c-page-content";
 
 .c-page-content {
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 110px;
 }
 
