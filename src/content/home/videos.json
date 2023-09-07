@@ -200,6 +200,12 @@
 
     "videos": [
       {
+        "title": "Premiers Utilisateurs, Traction & Acquisition Pre-PMF pour SaaS",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "3pIqISGS9FA"
+      },
+
+      {
         "title": "Product Hunt Tips & Tricks",
         "speakers": ["Julien Le Coupanec"],
         "id": "5MmwAO7FHIk"
@@ -207,10 +213,6 @@
 
       {
         "title": "Le funnel AARRR pour un SaaS"
-      },
-
-      {
-        "title": "Les différents canaux d'acquisition pour un SaaS"
       },
 
       {
