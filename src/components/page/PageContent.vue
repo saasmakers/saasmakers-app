@@ -40,7 +40,7 @@ $c: ".c-page-content";
 
 @media (max-width: $screen-tiny-width-breakpoint) {
   .c-page-content {
-    padding-top: 60px;
+    padding-top: 14px;
     padding-bottom: 80px;
   }
 }

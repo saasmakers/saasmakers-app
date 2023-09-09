@@ -102,34 +102,25 @@
     "videos": [
       {
         "title": "CI/CD, Testing, Storybook & ChatGPT",
-        "speakers": [
-          "Baptiste Jamin",
-          "Julien Le Coupanec"
-        ],
+        "speakers": ["Baptiste Jamin", "Julien Le Coupanec"],
         "id": "iTOlGZZ9-VI"
       },
 
       {
         "title": "Outils : GitHub Copilot",
-        "speakers": [
-          "Julien Le Coupanec"
-        ],
+        "speakers": ["Julien Le Coupanec"],
         "id": "ptStXNPtzGU"
       },
 
       {
         "title": "Outils : Raycast",
-        "speakers": [
-          "Julien Le Coupanec"
-        ],
+        "speakers": ["Julien Le Coupanec"],
         "id": "hruSnst8Nnw"
       },
 
       {
         "title": "Outils : Playground AI",
-        "speakers": [
-          "Julien Le Coupanec"
-        ],
+        "speakers": ["Julien Le Coupanec"],
         "id": "JWZB6rupeAw"
       },
 
