@@ -180,6 +180,12 @@
 
     "videos": [
       {
+        "title": "SaaS DevOps, Réalité des Migrations, Orchestration, Turborepo",
+        "speakers": ["Valérian Saliou", "Julien Le Coupanec"],
+        "id": "rE9h_xr0qqE"
+      },
+
+      {
         "title": "Scaler une infrastructure scalable et redondante pour tenir la charge"
       }
     ]
