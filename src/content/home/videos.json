@@ -107,6 +107,15 @@
       },
 
       {
+        "title": "Outils : Cloudflare",
+        "speakers": [
+          "Julien Le Coupanec",
+          "Valérian Saliou"
+        ],
+        "id": "IpiykEVJfh4"
+      },
+
+      {
         "title": "Outils : GitHub Copilot",
         "speakers": ["Julien Le Coupanec"],
         "id": "ptStXNPtzGU"
@@ -162,10 +171,6 @@
 
       {
         "title": "Outils : Better Uptime"
-      },
-
-      {
-        "title": "Outils : Cloudflare"
       },
 
       {
