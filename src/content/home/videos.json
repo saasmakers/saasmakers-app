@@ -6,13 +6,13 @@
     "videos": [
       {
         "title": "Idées de SaaS, Bootstrapping, Erreurs à éviter",
-        "speakers": ["Valérian Saliou", "Julien Le Coupanec"],
+        "speakers": ["Valerian Saliou", "Julien Le Coupanec"],
         "id": "3fqOJEtbVNw"
       },
 
       {
         "title": "SaaS Backend, Sécurité, Arnaques",
-        "speakers": ["Baptiste Jamin", "Valérian Saliou", "Julien Le Coupanec"],
+        "speakers": ["Baptiste Jamin", "Valerian Saliou", "Julien Le Coupanec"],
         "id": "vingWLFhYTQ"
       },
 
@@ -21,7 +21,7 @@
 
         "speakers": [
           "François-Guillaume Ribreau",
-          "Valérian Saliou",
+          "Valerian Saliou",
           "Julien Le Coupanec"
         ],
 
@@ -61,7 +61,7 @@
     "videos": [
       {
         "title": "Intelligence Artificielle, Hugging Face, Révolution IA",
-        "speakers": ["Baptiste Jamin", "Valérian Saliou", "Julien Le Coupanec"],
+        "speakers": ["Baptiste Jamin", "Valerian Saliou", "Julien Le Coupanec"],
         "id": "pqhUyjjpNJs"
       },
 
@@ -108,7 +108,7 @@
 
       {
         "title": "Outils : Cloudflare",
-        "speakers": ["Julien Le Coupanec", "Valérian Saliou"],
+        "speakers": ["Julien Le Coupanec", "Valerian Saliou"],
         "id": "IpiykEVJfh4"
       },
 
@@ -183,7 +183,7 @@
     "videos": [
       {
         "title": "SaaS DevOps, Réalité des Migrations, Orchestration, Turborepo",
-        "speakers": ["Valérian Saliou", "Julien Le Coupanec"],
+        "speakers": ["Valerian Saliou", "Julien Le Coupanec"],
         "id": "rE9h_xr0qqE"
       },
 
