@@ -107,6 +107,12 @@
       },
 
       {
+        "title": "Outils : Turborepo",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "a-d1LWOPS6Q"
+      },
+
+      {
         "title": "Outils : Cloudflare",
         "speakers": ["Julien Le Coupanec", "Valerian Saliou"],
         "id": "IpiykEVJfh4"
