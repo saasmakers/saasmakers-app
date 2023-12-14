@@ -342,6 +342,12 @@
     "icon": "📚",
     "videos": [
       {
+        "title": "The SaaS Playbook",
+        "speakers": ["Julien Le Coupanec"],
+        "id": "jUUmOeHfNvY"
+      },
+
+      {
         "title": "From Impossible to Inevitable",
         "speakers": ["Julien Le Coupanec"],
         "id": "r5jedQPs3xY"
