@@ -63,7 +63,7 @@ $icon-size: 34px;
 
   #{$c}__brand {
     width: auto;
-    height: 17px;
+    height: 40px;
   }
 }
 </style>

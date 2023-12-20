@@ -34,5 +34,5 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit
 
-      # - name: Run lints
-      #   run: npm run lint
+      - name: Run lints
+        run: npm run lint
