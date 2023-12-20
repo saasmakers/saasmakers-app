@@ -51,19 +51,27 @@ $icon-size: 34px;
   }
 
   #{$c}__icon {
-    background-image: url("~/assets/images/components/base/BaseLogo/icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: $icon-size;
-    height: $icon-size;
-    margin-right: 9px;
-    display: inline-block;
+      background-image: url("~/assets/images/components/base/BaseLogo/icon.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: $icon-size;
+      height: $icon-size;
+      margin-right: 9px;
+      display: inline-block;
   }
 
   #{$c}__brand {
     width: auto;
     height: 40px;
+  }
+}
+
+@media (max-width: $screen-lilliput-width-breakpoint) {
+  .c-base-logo {
+    #{$c}__icon {
+      display: none;
+    }
   }
 }
 </style>
