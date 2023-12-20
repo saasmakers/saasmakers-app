@@ -211,7 +211,7 @@ $c: ".c-page-header";
     }
 
     #{$c}__left {
-      .c-page-header__logo {
+      #{$c}__logo {
         margin: 0 auto;
       }
     }
