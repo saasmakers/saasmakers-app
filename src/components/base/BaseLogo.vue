@@ -21,13 +21,8 @@ span.c-base-logo
      ********************************************************************** -->
 
 <script>
-// PROJECT: IMAGES
-import ImageBrand from "~/assets/images/components/base/BaseLogo/brand.svg?inline";
-
 export default {
-  name: "BaseLogo",
-
-  components: { ImageBrand }
+  name: "BaseLogo"
 };
 </script>
 
@@ -41,31 +36,38 @@ $c: ".c-base-logo";
 // VARIABLES
 $icon-size: 34px;
 
+$brand-width: 248px;
+$brand-height: 40px;
+
 .c-base-logo {
   display: flex;
   align-items: center;
 
   #{$c}__icon,
   #{$c}__brand {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     flex: 0 0 auto;
+    display: inline-block;
   }
 
   #{$c}__icon {
-      background-image: url("~/assets/images/components/base/BaseLogo/icon.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-      width: $icon-size;
-      height: $icon-size;
-      margin-right: 9px;
-      display: inline-block;
+    background-image: url("~/assets/images/components/base/BaseLogo/icon.png");
+    width: $icon-size;
+    height: $icon-size;
+    margin-right: 10px;
   }
 
   #{$c}__brand {
+    background-image: url("~/assets/images/components/base/BaseLogo/brand.png");
     width: auto;
-    height: 40px;
+    width: $brand-width;
+    height: $brand-height;
   }
 }
+
+// --> MEDIA-QUERIES <--
 
 @media (max-width: $screen-lilliput-width-breakpoint) {
   .c-base-logo {
