@@ -210,6 +210,16 @@ $c: ".c-page-header";
       height: $page-header-height-small;
     }
 
+    #{$c}__left {
+      .c-page-header__logo {
+        margin: 0 auto;
+      }
+    }
+
+    #{$c}__right {
+      display: none;
+    }
+
     #{$c}__platform {
       #{$c}__platform-button {
         padding-left: 20px;
