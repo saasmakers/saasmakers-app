@@ -2,360 +2,348 @@
   {
     "title": "Basics pour les SaaS Makers",
     "icon": "📖",
-
     "videos": [
       {
         "title": "Idées de SaaS, Bootstrapping, Erreurs à éviter",
-        "speakers": ["Valerian Saliou", "Julien Le Coupanec"],
+        "speakers": [
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
         "id": "3fqOJEtbVNw"
       },
-
       {
         "title": "SaaS Backend, Sécurité, Arnaques",
-        "speakers": ["Baptiste Jamin", "Valerian Saliou", "Julien Le Coupanec"],
+        "speakers": [
+          "Baptiste Jamin",
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
         "id": "vingWLFhYTQ"
       },
-
       {
         "title": "Passer de 0 à 1 avec un SaaS",
-        "speakers": ["François-Guillaume Ribreau", "Valerian Saliou", "Julien Le Coupanec"],
+        "speakers": [
+          "François-Guillaume Ribreau",
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
         "id": "nvhdnUYxbqg"
       },
-
       {
         "title": "Comment trouver son ICP pour un SaaS"
       },
-
       {
         "title": "Comment financer ou trouver de l'argent pour son SaaS"
       },
-
       {
         "title": "Les différents stades de la vie d'un SaaS"
       },
-
       {
         "title": "Trouver un co-founder ou CTO pour monter un SaaS"
       },
-
       {
         "title": "Gérer la concurrence"
       },
-
       {
         "title": "Trouver son pricing"
       }
     ]
   },
-
   {
     "title": "Mindset & Skills",
     "icon": "🧠",
-
     "videos": [
       {
         "title": "Intelligence Artificielle, Hugging Face, Révolution IA",
-        "speakers": ["Baptiste Jamin", "Valerian Saliou", "Julien Le Coupanec"],
+        "speakers": [
+          "Baptiste Jamin",
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
         "id": "pqhUyjjpNJs"
       },
-
       {
         "title": "La résilience et la passion",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "9BKkkb4oj9Y"
       },
-
       {
         "title": "Le guide du solo founder",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "hdjQ2Sdoxks"
       },
-
       {
         "title": "L'agilité dans l'exécution"
       },
-
       {
         "title": "Apprendre, rester à jour et partager"
       },
-
       {
         "title": "Savoir pourquoi on fait les choses"
       },
-
       {
         "title": "Prendre soin de sa santé"
       }
     ]
   },
-
   {
     "title": "MVP & Produit",
     "icon": "📦",
-
     "videos": [
       {
         "title": "CI/CD, Testing, Storybook & ChatGPT",
-        "speakers": ["Baptiste Jamin", "Julien Le Coupanec"],
+        "speakers": [
+          "Baptiste Jamin",
+          "Julien Le Coupanec"
+        ],
         "id": "iTOlGZZ9-VI"
       },
-
       {
         "title": "Outils : Turborepo",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "a-d1LWOPS6Q"
       },
-
       {
         "title": "Outils : Cloudflare",
-        "speakers": ["Julien Le Coupanec", "Valerian Saliou"],
+        "speakers": [
+          "Julien Le Coupanec",
+          "Valerian Saliou"
+        ],
         "id": "IpiykEVJfh4"
       },
-
       {
         "title": "Outils : GitHub Copilot",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "ptStXNPtzGU"
       },
-
       {
         "title": "Outils : Raycast",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "hruSnst8Nnw"
       },
-
       {
         "title": "Outils : Playground AI",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "JWZB6rupeAw"
       },
-
       {
         "title": "Trouver et améliorer sa stack"
       },
-
       {
         "title": "Construire son MVP / POC"
       },
-
       {
         "title": "Comment financer son SaaS pour passer de 0 à 1"
       },
-
       {
         "title": "Construire un bon onboarding pour un SaaS"
       },
-
       {
         "title": "Créer des customer interviews intelligentes"
       },
-
       {
         "title": "Comment pousser ses utilisateurs au feedback"
       },
-
       {
         "title": "Gagner du temps avec les tests"
       },
-
       {
         "title": "Outils : Sentry et GitHub Copilot"
       },
-
       {
         "title": "Outils : Google Cloud Functions"
       },
-
       {
         "title": "Outils : Better Uptime"
       },
-
       {
         "title": "Freemium vs Free Trial"
       }
     ]
   },
-
   {
     "title": "Scaler le produit",
     "icon": "⚡️",
-
     "videos": [
       {
         "title": "SaaS DevOps, Réalité des Migrations, Orchestration, Turborepo",
-        "speakers": ["Valerian Saliou", "Julien Le Coupanec"],
+        "speakers": [
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
         "id": "rE9h_xr0qqE"
       },
-
       {
         "title": "Scaler une infrastructure scalable et redondante pour tenir la charge"
       }
     ]
   },
-
   {
     "title": "Marketing & Growth",
     "icon": "🚀",
-
     "videos": [
       {
         "title": "Premiers Utilisateurs, Traction & Acquisition Pre-PMF pour SaaS",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "3pIqISGS9FA"
       },
-
       {
         "title": "Activation, Onboarding & Aha Moment",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "TSovz3X63ag"
       },
-
       {
         "title": "Product Hunt Tips & Tricks",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "5MmwAO7FHIk"
       },
-
       {
         "title": "Le funnel AARRR pour un SaaS"
       },
-
       {
         "title": "AppSumo"
       }
     ]
   },
-
   {
     "title": "Analytics & Metrics",
     "icon": "📈",
-
     "videos": [
       {
         "title": "Outil : Plausible",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "Vun6JR1Vra4"
       },
-
       {
         "title": "Outil : Mixpanel & Amplitude"
       },
-
       {
         "title": "Les key metrics pour un SaaS"
       },
-
       {
         "title": "Le churn dans un SaaS"
       }
     ]
   },
-
   {
     "title": "Management & Hiring",
     "icon": "👩‍💻",
-
     "videos": [
       {
         "title": "Trouver le Co-Fondateur ou CTO Idéal pour son SaaS",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "JSYDCBOUIR8"
       },
-
       {
         "title": "Structures Juridiques, Impôts & Holding pour un SaaS",
-        "speakers": ["Valerian Saliou", "Julien Le Coupanec"],
+        "speakers": [
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
         "id": "gzeObTz9zuM"
       },
-
       {
         "title": "Travailler avec des freelances"
       },
-
       {
         "title": "Recruter son premier employé en France"
       }
     ]
   },
-
   {
     "title": "Scaling & International",
     "icon": "🗺️",
-
     "videos": [
       {
         "title": "Lancer un nouveau pays avec un country manager"
       },
-
       {
         "title": "Make or Buy"
       }
     ]
   },
-
   {
     "title": "Seeding & Funding",
     "icon": "💰",
-
     "videos": [
       {
         "title": "Le Bootstrapping",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "7J6iqLGjnOo"
       },
-
       {
         "title": "Les BSPCE"
       },
-
       {
         "title": "Réaliser un seed"
       },
-
       {
         "title": "Faire une Série A"
       }
     ]
   },
-
   {
     "title": "Incubateurs, Accélérateurs & VCs",
     "icon": "🏬",
-
     "videos": [
       {
         "title": "Station F"
       },
-
       {
         "title": "TechStars New York"
       },
-
       {
         "title": "Y Combinator"
       }
     ]
   },
-
   {
     "title": "Livres & Podcasts",
     "icon": "📚",
     "videos": [
       {
         "title": "The SaaS Playbook",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "jUUmOeHfNvY"
       },
-
       {
         "title": "From Impossible to Inevitable",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "r5jedQPs3xY"
       },
-
       {
         "title": "SaaS Club",
-        "speakers": ["Julien Le Coupanec"],
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
         "id": "sT9xks_moaI"
       }
     ]
