@@ -12,8 +12,7 @@
 <template lang="pug">
 span.c-base-logo
   span.c-base-logo__icon
-
-  image-brand.c-base-logo__brand
+  span.c-base-logo__brand
 </template>
 
 <!-- **********************************************************************
