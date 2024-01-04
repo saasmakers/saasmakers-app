@@ -228,6 +228,13 @@
     "icon": "📈",
     "videos": [
       {
+        "title": "SaaS Metrics : Le Churn",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "FNkXMKn4ojM"
+      },
+      {
         "title": "Outil : Plausible",
         "speakers": [
           "Julien Le Coupanec"
