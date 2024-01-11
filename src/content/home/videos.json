@@ -95,6 +95,13 @@
     "icon": "📦",
     "videos": [
       {
+        "title": "Narrative, Primitive & Enablers",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "bXFkQi5f_HA"
+      },
+      {
         "title": "CI/CD, Testing, Storybook & ChatGPT",
         "speakers": [
           "Baptiste Jamin",
