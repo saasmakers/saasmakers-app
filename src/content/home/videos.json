@@ -108,6 +108,14 @@
         "id": "iTOlGZZ9-VI"
       },
       {
+        "title": "SaaS DevOps, Réalité des Migrations, Orchestration, Turborepo",
+        "speakers": [
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
+        "id": "rE9h_xr0qqE"
+      },
+      {
         "title": "Outils : Turborepo",
         "speakers": [
           "Julien Le Coupanec"
@@ -163,6 +171,9 @@
         "title": "Comment financer son SaaS pour passer de 0 à 1"
       },
       {
+        "title": "Scaler une infrastructure scalable et redondante pour tenir la charge"
+      },
+      {
         "title": "Construire un bon onboarding pour un SaaS"
       },
       {
@@ -185,23 +196,6 @@
       },
       {
         "title": "Freemium vs Free Trial"
-      }
-    ]
-  },
-  {
-    "title": "Scaler le produit",
-    "icon": "⚡️",
-    "videos": [
-      {
-        "title": "SaaS DevOps, Réalité des Migrations, Orchestration, Turborepo",
-        "speakers": [
-          "Valerian Saliou",
-          "Julien Le Coupanec"
-        ],
-        "id": "rE9h_xr0qqE"
-      },
-      {
-        "title": "Scaler une infrastructure scalable et redondante pour tenir la charge"
       }
     ]
   },
