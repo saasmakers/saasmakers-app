@@ -287,7 +287,7 @@
     ]
   },
   {
-    "title": "Management & Hiring",
+    "title": "Management & Accounting",
     "icon": "👩‍💻",
     "videos": [
       {
@@ -298,19 +298,19 @@
         "id": "JSYDCBOUIR8"
       },
       {
+        "title": "Stratégies de Recrutement, Erreurs de Casting & Senior vs Junior dans un SaaS",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "MpSWw3ZV3YA"
+      },
+      {
         "title": "Structures Juridiques, Impôts & Holding pour un SaaS",
         "speakers": [
           "Valerian Saliou",
           "Julien Le Coupanec"
         ],
         "id": "gzeObTz9zuM"
-      },
-      {
-        "title": "Stratégies de Recrutement, Erreurs de Casting & Senior vs Junior dans un SaaS",
-        "speakers": [
-          "Julien Le Coupanec"
-        ],
-        "id": "MpSWw3ZV3YA"
       },
       {
         "title": "Travailler avec des freelances"
@@ -321,19 +321,7 @@
     ]
   },
   {
-    "title": "Scaling & International",
-    "icon": "🗺️",
-    "videos": [
-      {
-        "title": "Lancer un nouveau pays avec un country manager"
-      },
-      {
-        "title": "Make or Buy"
-      }
-    ]
-  },
-  {
-    "title": "Seeding & Funding",
+    "title": "Bootstrapping & Fundraising",
     "icon": "💰",
     "videos": [
       {
@@ -351,21 +339,6 @@
       },
       {
         "title": "Faire une Série A"
-      }
-    ]
-  },
-  {
-    "title": "Incubateurs, Accélérateurs & VCs",
-    "icon": "🏬",
-    "videos": [
-      {
-        "title": "Station F"
-      },
-      {
-        "title": "TechStars New York"
-      },
-      {
-        "title": "Y Combinator"
       }
     ]
   },
