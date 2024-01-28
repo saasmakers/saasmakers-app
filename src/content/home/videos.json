@@ -21,6 +21,13 @@
         "id": "nvhdnUYxbqg"
       },
       {
+        "title": "Démarrer un SaaS",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "gnr1PSYMSJU"
+      },
+      {
         "title": "Mindset, Challenges & Erreurs à Éviter pour un SaaS Maker",
         "speakers": [
           "Julien Le Coupanec"
@@ -108,6 +115,14 @@
         "id": "iTOlGZZ9-VI"
       },
       {
+        "title": "SaaS DevOps, Réalité des Migrations, Orchestration, Turborepo",
+        "speakers": [
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
+        "id": "rE9h_xr0qqE"
+      },
+      {
         "title": "Outils : Turborepo",
         "speakers": [
           "Julien Le Coupanec"
@@ -163,6 +178,9 @@
         "title": "Comment financer son SaaS pour passer de 0 à 1"
       },
       {
+        "title": "Scaler une infrastructure scalable et redondante pour tenir la charge"
+      },
+      {
         "title": "Construire un bon onboarding pour un SaaS"
       },
       {
@@ -189,23 +207,6 @@
     ]
   },
   {
-    "title": "Scaler le produit",
-    "icon": "⚡️",
-    "videos": [
-      {
-        "title": "SaaS DevOps, Réalité des Migrations, Orchestration, Turborepo",
-        "speakers": [
-          "Valerian Saliou",
-          "Julien Le Coupanec"
-        ],
-        "id": "rE9h_xr0qqE"
-      },
-      {
-        "title": "Scaler une infrastructure scalable et redondante pour tenir la charge"
-      }
-    ]
-  },
-  {
     "title": "Marketing & Growth",
     "icon": "🚀",
     "videos": [
@@ -217,6 +218,13 @@
         "id": "3pIqISGS9FA"
       },
       {
+        "title": "SaaS Marketing, Growth Marketing & Framework AARRR",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "7Ik9cRCYwrc"
+      },
+      {
         "title": "Activation, Onboarding & Aha Moment",
         "speakers": [
           "Julien Le Coupanec"
@@ -224,14 +232,25 @@
         "id": "TSovz3X63ag"
       },
       {
+        "title": "Onboarding",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "vix51LVZktg"
+      },
+      {
+        "title": "Internationalisation, Ouvrir un Nouveau Pays & Country Managers",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "uWUQ_skAJOA"
+      },
+      {
         "title": "Product Hunt Tips & Tricks",
         "speakers": [
           "Julien Le Coupanec"
         ],
         "id": "5MmwAO7FHIk"
-      },
-      {
-        "title": "Le funnel AARRR pour un SaaS"
       },
       {
         "title": "AppSumo"
