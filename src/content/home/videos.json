@@ -1,7 +1,7 @@
 [
   {
-    "title": "Basics pour les SaaS Makers",
-    "icon": "📖",
+    "title": "Mindset & Skills",
+    "icon": "🧠",
     "videos": [
       {
         "title": "Idées de SaaS, Bootstrapping, Erreurs à éviter",
@@ -10,22 +10,6 @@
           "Julien Le Coupanec"
         ],
         "id": "3fqOJEtbVNw"
-      },
-      {
-        "title": "Mindset, Challenges & Erreurs à Éviter pour un SaaS Maker",
-        "speakers": [
-          "Julien Le Coupanec"
-        ],
-        "id": "R6n-bVIWl4k"
-      },
-      {
-        "title": "SaaS Backend, Sécurité, Arnaques",
-        "speakers": [
-          "Baptiste Jamin",
-          "Valerian Saliou",
-          "Julien Le Coupanec"
-        ],
-        "id": "vingWLFhYTQ"
       },
       {
         "title": "Passer de 0 à 1 avec un SaaS",
@@ -37,37 +21,11 @@
         "id": "nvhdnUYxbqg"
       },
       {
-        "title": "Comment trouver son ICP pour un SaaS"
-      },
-      {
-        "title": "Comment financer ou trouver de l'argent pour son SaaS"
-      },
-      {
-        "title": "Les différents stades de la vie d'un SaaS"
-      },
-      {
-        "title": "Trouver un co-founder ou CTO pour monter un SaaS"
-      },
-      {
-        "title": "Gérer la concurrence"
-      },
-      {
-        "title": "Trouver son pricing"
-      }
-    ]
-  },
-  {
-    "title": "Mindset & Skills",
-    "icon": "🧠",
-    "videos": [
-      {
-        "title": "Intelligence Artificielle, Hugging Face, Révolution IA",
+        "title": "Mindset, Challenges & Erreurs à Éviter pour un SaaS Maker",
         "speakers": [
-          "Baptiste Jamin",
-          "Valerian Saliou",
           "Julien Le Coupanec"
         ],
-        "id": "pqhUyjjpNJs"
+        "id": "R6n-bVIWl4k"
       },
       {
         "title": "La résilience et la passion",
@@ -94,6 +52,21 @@
       },
       {
         "title": "Prendre soin de sa santé"
+      },
+      {
+        "title": "Comment financer ou trouver de l'argent pour son SaaS"
+      },
+      {
+        "title": "Les différents stades de la vie d'un SaaS"
+      },
+      {
+        "title": "Trouver un co-founder ou CTO pour monter un SaaS"
+      },
+      {
+        "title": "Gérer la concurrence"
+      },
+      {
+        "title": "Trouver son pricing"
       }
     ]
   },
@@ -107,6 +80,24 @@
           "Julien Le Coupanec"
         ],
         "id": "bXFkQi5f_HA"
+      },
+      {
+        "title": "Intelligence Artificielle, Hugging Face, Révolution IA",
+        "speakers": [
+          "Baptiste Jamin",
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
+        "id": "pqhUyjjpNJs"
+      },
+      {
+        "title": "SaaS Backend, Sécurité, Arnaques",
+        "speakers": [
+          "Baptiste Jamin",
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
+        "id": "vingWLFhYTQ"
       },
       {
         "title": "CI/CD, Testing, Storybook & ChatGPT",
@@ -164,6 +155,9 @@
       },
       {
         "title": "Construire son MVP / POC"
+      },
+      {
+        "title": "Comment trouver son ICP pour un SaaS"
       },
       {
         "title": "Comment financer son SaaS pour passer de 0 à 1"
