@@ -321,7 +321,7 @@
     ]
   },
   {
-    "title": "Bootstrapping & Fundraising",
+    "title": "Bootstrapping, Fundraising & Accelerators",
     "icon": "💰",
     "videos": [
       {
@@ -330,6 +330,14 @@
           "Julien Le Coupanec"
         ],
         "id": "7J6iqLGjnOo"
+      },
+      {
+        "title": "Techstars, Station F, Coaching entre Associés & Santé",
+        "speakers": [
+          "Raphaël Alexandre",
+          "Julien Le Coupanec"
+        ],
+        "id": "g-hJxMLsODw"
       },
       {
         "title": "Les BSPCE"
