@@ -21,10 +21,6 @@
 <script>
 export default {
   name: "IndexPage",
-
-  head: {
-    title: "SaaS Makers"
-  }
 };
 </script>
 
