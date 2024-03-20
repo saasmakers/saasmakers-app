@@ -14,7 +14,7 @@ page-container
   page-header
 
   page-content
-    nuxt
+    slot
 
   page-footer
 </template>

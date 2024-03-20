@@ -33,7 +33,7 @@
           base-space
 
           a(
-            :href="$config.url.twitter_julien"
+            :href="$config.public.URL.twitter_julien"
             target="_blank"
             class="u-bold"
           )
@@ -46,7 +46,7 @@
           base-space
 
           a(
-            :href="$config.url.twitter_valerian"
+            :href="$config.public.URL.twitter_valerian"
             target="_blank"
             class="u-bold"
           )
@@ -59,7 +59,7 @@
     .c-page-footer__details
       .c-page-footer__left
         .c-page-footer__copyright
-          | © {{ currentYear }} {{ $config.author.name }}
+          | © {{ currentYear }} {{ $config.public.AUTHOR.name }}
 
       .c-page-footer__right
         ul.c-page-footer__social
@@ -92,7 +92,8 @@
 
 <script>
 // CONSTANTS
-const IMAGES_PATH = "assets/images/components/page/PageFooter";
+import julienImage from "~/assets/images/components/page/PageFooter/julien.webp"
+import valerianImage from "~/assets/images/components/page/PageFooter/valerian.webp"
 
 export default {
   name: "PageFooter",
@@ -106,12 +107,12 @@ export default {
       storyAvatars: [
         {
           id: "julien",
-          image: require(`~/${IMAGES_PATH}/julien.webp`)
+          image: julienImage
         },
 
         {
           id: "valerian",
-          image: require(`~/${IMAGES_PATH}/valerian.webp`)
+          image: valerianImage
         }
       ],
 
@@ -120,7 +121,7 @@ export default {
           id: "youtube",
           label: "YouTube",
           color: "red",
-          target: this.$config.platforms.youtube.target
+          target: this.$config.public.PLATFORMS.youtube.target
         }
       ]
     };

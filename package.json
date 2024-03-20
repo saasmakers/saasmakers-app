@@ -19,8 +19,11 @@
     "url": "https://www.saasmakers.club/"
   },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt generate",
+    "build": "nuxt build",
+    "dev": "nuxt dev -p 3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
     "clean": "rm -rf ./dist",
     "test": "npm run lint",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
@@ -28,32 +31,29 @@
     "lint": "npm run lint:js && npm run lint:prettier"
   },
   "dependencies": {
-    "core-js": "3.19.3",
-    "nuxt": "2.17.1",
-    "vue": "2.7.14",
-    "vue-server-renderer": "2.7.14",
-    "vue-template-compiler": "2.7.14",
-    "vue-observe-visibility": "1.0.0",
-    "webpack": "4.46.0",
-    "keycode": "2.2.1"
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/robots": "^3.0.0",
+    "@vue/compat": "^3.4.21",
+    "@vue/compiler-sfc": "^3.1.0",
+    "keycode": "2.2.1",
+    "sass": "^1.72.0",
+    "vue": "^3.1.0",
+    "vue3-observe-visibility": "^1.0.1",
+    "webpack": "4.46.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.16.3",
-    "@nuxtjs/eslint-config": "8.0.0",
-    "@nuxtjs/eslint-module": "3.0.2",
-    "@nuxtjs/svg": "0.4.0",
-    "@nuxtjs/robots": "2.5.0",
-    "@nuxtjs/sitemap": "2.4.0",
-    "@nuxtjs/style-resources": "1.2.1",
-    "pug": "3.0.2",
-    "sass": "1.49.11",
-    "pug-plain-loader": "1.1.0",
-    "sass-loader": "10.2.1",
-    "eslint": "8.4.1",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/sitemap": "^5.1.2",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-nuxt": "3.1.0",
     "eslint-plugin-vue": "8.2.0",
+    "nuxt": "^3.11.1",
+    "nuxt-lodash": "^2.5.3",
+    "nuxt-svgo": "^4.0.0",
     "prettier": "2.5.1",
-    "lodash.merge": "4.6.2"
+    "pug": "3.0.2",
+    "pug-plain-loader": "1.1.0"
   }
 }
