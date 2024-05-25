@@ -175,6 +175,36 @@
         "id": "vGpJeNkPFKA"
       },
       {
+        "title": "Sublimez le code de votre SaaS avec Perfectionist",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "Jmgqo08yUm4"
+      },
+      {
+        "title": "Construire de meilleures interfaces SaaS plus rapidement (Mobbin)",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "hkLziHEShPk"
+      },
+      {
+        "title": "Faire des commits ultra rapidement avec VSCode Commit Prompt",
+        "speakers": [
+          "Julien Le Coupanec"
+        ],
+        "id": "YRb0t4wmm_c"
+      },
+      {
+        "title": "SaaS Mobile App, Optimisation du Paywall & Premiers Utilisateurs",
+        "speakers": [
+          "Thomad Maherault",
+          "Eliott Vincent",
+          "Julien Le Coupanec"
+        ],
+        "id": "L-DSohrMSbg"
+      },
+      {
         "title": "Trouver et améliorer sa stack"
       },
       {
@@ -330,10 +360,12 @@
         "id": "gzeObTz9zuM"
       },
       {
-        "title": "Travailler avec des freelances"
-      },
-      {
-        "title": "Recruter son premier employé en France"
+        "title": "Facturer la TVA dans le SaaS",
+        "speakers": [
+          "Valerian Saliou",
+          "Julien Le Coupanec"
+        ],
+        "id": "YB3KvBS-Rus"
       }
     ]
   },
