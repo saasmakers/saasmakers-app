@@ -132,6 +132,15 @@
         "id": "rE9h_xr0qqE"
       },
       {
+        "title": "SaaS Mobile App, Optimisation du Paywall & Premiers Utilisateurs",
+        "speakers": [
+          "Thomad Maherault",
+          "Eliott Vincent",
+          "Julien Le Coupanec"
+        ],
+        "id": "L-DSohrMSbg"
+      },
+      {
         "title": "Outils : Turborepo",
         "speakers": [
           "Julien Le Coupanec"
@@ -194,15 +203,6 @@
           "Julien Le Coupanec"
         ],
         "id": "YRb0t4wmm_c"
-      },
-      {
-        "title": "SaaS Mobile App, Optimisation du Paywall & Premiers Utilisateurs",
-        "speakers": [
-          "Thomad Maherault",
-          "Eliott Vincent",
-          "Julien Le Coupanec"
-        ],
-        "id": "L-DSohrMSbg"
       },
       {
         "title": "Trouver et améliorer sa stack"
