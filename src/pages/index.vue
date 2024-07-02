@@ -13,3 +13,14 @@
 .p-index
   section-home-videos
 </template>
+
+<!-- **********************************************************************
+     SCRIPT
+     ********************************************************************** -->
+
+<script setup>
+// Set page title
+useHead({
+  title: "SaaS Makers – Discussions autour du SaaS"
+});
+</script>
