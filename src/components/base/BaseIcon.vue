@@ -32,8 +32,8 @@ span(
 
 <script>
 // PROJECT: IMAGES
-import ImageIconYouTube from "~/assets/images/components/base/BaseIcon/youtube.svg?raw";
-import ImageIconDiscord from "~/assets/images/components/base/BaseIcon/discord.svg?raw";
+import ImageIconYouTube from "@/assets/images/components/base/BaseIcon/youtube.svg?raw";
+import ImageIconDiscord from "@/assets/images/components/base/BaseIcon/discord.svg?raw";
 
 export default {
   name: "BaseIcon",
@@ -90,7 +90,7 @@ export default {
 <style lang="scss">
 $c: ".c-base-icon";
 
-.c-base-icon {
+#{$c} {
   display: block;
 
   #{$c}__icon {

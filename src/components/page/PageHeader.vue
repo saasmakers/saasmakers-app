@@ -31,7 +31,7 @@ div(
 
           .c-page-header__right
             a(
-              :href="$config.public.PLATFORMS.youtube.target"
+              :href="$config.public.platforms.youtube.target"
               target="_blank"
               class="c-page-header__platform"
             )
@@ -44,7 +44,7 @@ div(
                 round
               )
                 span.c-page-header__platform-handle.c-page-header__platform-handle--large
-                  | {{ $config.public.PLATFORMS.youtube.handle }}
+                  | {{ $config.public.platforms.youtube.handle }}
 
                 span.c-page-header__platform-handle.c-page-header__platform-handle--small
                   | YT
@@ -114,7 +114,7 @@ export default {
 <style lang="scss">
 $c: ".c-page-header";
 
-.c-page-header {
+#{$c} {
   padding-bottom: 12px;
 
   #{$c}__sticky,
@@ -203,7 +203,7 @@ $c: ".c-page-header";
 // --> MEDIA-QUERIES <--
 
 @media (max-width: $screen-lilliput-width-breakpoint) {
-  .c-page-header {
+  #{$c} {
     #{$c}__sticky,
     #{$c}__ghost,
     #{$c}__bar {

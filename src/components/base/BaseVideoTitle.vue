@@ -84,7 +84,7 @@ $c: ".c-base-video-title";
 // VARIABLES
 $badge-count-line-height: 32px;
 
-.c-base-video-title {
+#{$c} {
   display: flex;
   align-items: center;
 
@@ -143,7 +143,7 @@ $badge-count-line-height: 32px;
 // --> MEDIA-QUERIES <--
 
 @media (max-width: $screen-tiny-width-breakpoint) {
-  .c-base-video-title {
+  #{$c} {
     #{$c}__badge {
       #{$c}__badge-count {
         display: none;
@@ -153,7 +153,7 @@ $badge-count-line-height: 32px;
 }
 
 @media (max-width: $screen-lilliput-width-breakpoint) {
-  .c-base-video-title {
+  #{$c} {
     text-align: center;
     display: block;
 

@@ -1,15 +1,26 @@
+/*
+ * SaaS Makers - Web
+ *
+ * Copyright 2023, SaaS Makers
+ * Author: Valerian Saliou https://valeriansaliou.name/
+ */
+
+/**************************************************************************
+ * IMPORTS
+ * ************************************************************************* */
+
 // NODE
 import fs from "fs";
 import path from "path";
 
 // NPM
-import merge from "lodash/merge";
 import { defineNuxtConfig } from "nuxt/config";
+import merge from "lodash.merge";
 
 // CONFIGURATION
-import * as configCommon from "./config/common.json";
-import * as configProduction from "./config/production.json";
-import * as configDevelopment from "./config/development.json";
+import * as configCommon from "./config/common";
+import * as configProduction from "./config/production";
+import * as configDevelopment from "./config/development";
 
 // PACKAGE
 import * as projectPackage from "./package.json";
@@ -38,23 +49,82 @@ const CONFIG = (function () {
   return _config;
 })();
 
-// https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
-  devtools: { enabled: true },
+/**************************************************************************
+ * EXPORTS
+ * ************************************************************************* */
 
-  // https://github.com/nuxt/telemetry
+export default defineNuxtConfig({
+  // Server-Side Rendering (SSG)
+  ssr: true,
+  target: "static",
+
+  // Telemetry
   telemetry: false,
 
+  // General Site Configuration
+  site: {
+    url: CONFIG.url.saasmakers_web
+  },
+
+  // Source Directory
   srcDir: "src/",
+  publicDir: "public/",
 
+  // Directories
+  dir: {
+    assets: "assets",
+    composables: "composables",
+    layouts: "layouts",
+    middleware: "middleware",
+    modules: "modules",
+    pages: "pages",
+    plugins: "plugins",
+    public: "../public",
+    static: "static"
+  },
+
+  // CSS Files
+  css: ["@/assets/stylesheets/all.scss"],
+
+  // Auto-import all components as global
+  components: [{ path: "components", pathPrefix: false }],
+
+  // Modules
+  modules: ["@nuxtjs/robots", "@nuxtjs/sitemap", "nuxt-svgo"],
+
+  // Preprocessing
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: [
+            '@use "@/assets/stylesheets/variables/all.scss" as *;',
+            '@use "@/assets/stylesheets/tools/all.scss" as *;'
+          ].join("\n")
+        }
+      }
+    }
+  },
+
+  // Nitro Configuration
+  nitro: {
+    publicDir: "public",
+
+    output: {
+      dir: "build",
+      serverDir: "build/server",
+      publicDir: "build/public"
+    }
+  },
+
+  // App Configuration
   app: {
+    rootId: "__saasmakers",
+    baseURL: "/",
+    buildAssetsDir: "/_saasmakers/",
+
+    // Global page headers
     head: {
-      title: "SaaS Makers",
-
-      htmlAttrs: {
-        lang: "en"
-      },
-
       meta: [
         {
           charset: "utf-8"
@@ -82,13 +152,13 @@ export default defineNuxtConfig({
         {
           rel: "shortcut icon",
           type: "image/x-icon",
-          href: "/favicon.ico"
+          href: "/favicons/favicon.ico"
         },
 
         {
           rel: "icon",
           type: "image/png",
-          href: "/favicon.png"
+          href: "/favicons/favicon.png"
         },
 
         {
@@ -136,59 +206,41 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: [
-    "nuxt-svgo",
-    "nuxt-lodash",
-    "@nuxtjs/sitemap",
-    // '@nuxtjs/robots',
-    "@nuxtjs/eslint-module"
-  ],
-
-  // (Module)
-  svgo: {
-    svgo: true,
-    defaultImport: "component",
-    autoImportPath: false,
-    svgoConfig: {
-      multipass: true,
-      removeViewBox: false
-    }
-  },
-
-  // (Module) Sitemap: https://nuxtseo.com/sitemap/getting-started/installation
-  site: {
-    url: CONFIG.url.saasmakers_web
-  },
-
-  // (Module) Robots: https://nuxt.com/modules/robots
-  robots: {
-    UserAgent: "*",
-    Allow: "/",
-    Sitemap: `${CONFIG.url.saasmakers_web}/sitemap.xml`
-  },
-
+  // Runtime Configuration
   runtimeConfig: {
     public: {
-      baseURL: "/jellow",
-      URL: CONFIG.url,
-      PLATFORMS: CONFIG.platforms,
-      AUTHOR: projectPackage.author
+      // Important: remap config as to strip any private token from there, as \
+      //   eg. in the future there might be some private built-time token \
+      //   shared in this configuration file, which we DO NOT want to leak on \
+      //   the Web.
+      url: CONFIG.url,
+      platforms: CONFIG.platforms,
+      tokens: CONFIG.tokens.public,
+      author: projectPackage.author
     }
   },
 
-  // extract CSS
-  // https://github.com/nuxt/nuxt/pull/21573
-  experimental: {
-    inlineSSRStyles: false
+  // SVGO Configuration
+  svgo: {
+    autoImportPath: false
   },
 
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: '@use "./assets/stylesheets/all.scss" as *;'
-        }
-      }
+  // Sitemap Configuration
+  sitemap: {
+    hostname: CONFIG.url.saasmakers_web
+  },
+
+  // Robots Configuration
+  robots: {
+    rules: {
+      UserAgent: "*",
+      Allow: "/",
+      Sitemap: `${CONFIG.url.saasmakers_web}/sitemap.xml`
     }
+  },
+
+  // Dev Tools Configuration
+  devtools: {
+    enabled: true
   }
 });

@@ -16,16 +16,6 @@ span.c-base-logo
 </template>
 
 <!-- **********************************************************************
-     SCRIPT
-     ********************************************************************** -->
-
-<script>
-export default {
-  name: "BaseLogo"
-};
-</script>
-
-<!-- **********************************************************************
      STYLE
      ********************************************************************** -->
 
@@ -38,7 +28,7 @@ $icon-size: 34px;
 $brand-width: 248px;
 $brand-height: 40px;
 
-.c-base-logo {
+#{$c} {
   display: flex;
   align-items: center;
 
@@ -52,14 +42,14 @@ $brand-height: 40px;
   }
 
   #{$c}__icon {
-    background-image: url("~/assets/images/components/base/BaseLogo/icon.png");
+    background-image: url("@/assets/images/components/base/BaseLogo/icon.png");
     width: $icon-size;
     height: $icon-size;
     margin-right: 10px;
   }
 
   #{$c}__brand {
-    background-image: url("~/assets/images/components/base/BaseLogo/brand.png");
+    background-image: url("@/assets/images/components/base/BaseLogo/brand.png");
     width: auto;
     width: $brand-width;
     height: $brand-height;
@@ -69,7 +59,7 @@ $brand-height: 40px;
 // --> MEDIA-QUERIES <--
 
 @media (max-width: $screen-lilliput-width-breakpoint) {
-  .c-base-logo {
+  #{$c} {
     #{$c}__icon {
       display: none;
     }

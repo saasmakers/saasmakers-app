@@ -33,7 +33,7 @@
           base-space
 
           a(
-            :href="$config.public.URL.twitter_julien"
+            :href="$config.public.url.twitter_julien"
             target="_blank"
             class="u-bold"
           )
@@ -46,7 +46,7 @@
           base-space
 
           a(
-            :href="$config.public.URL.twitter_valerian"
+            :href="$config.public.url.twitter_valerian"
             target="_blank"
             class="u-bold"
           )
@@ -59,7 +59,7 @@
     .c-page-footer__details
       .c-page-footer__left
         .c-page-footer__copyright
-          | © {{ currentYear }} {{ $config.public.AUTHOR.name }}
+          | © {{ currentYear }} {{ $config.public.author.name }}
 
       .c-page-footer__right
         ul.c-page-footer__social
@@ -92,8 +92,8 @@
 
 <script>
 // CONSTANTS
-import julienImage from "~/assets/images/components/page/PageFooter/julien.webp";
-import valerianImage from "~/assets/images/components/page/PageFooter/valerian.webp";
+import ImageJulien from "@/assets/images/components/page/PageFooter/julien.webp";
+import ImageValerian from "@/assets/images/components/page/PageFooter/valerian.webp";
 
 export default {
   name: "PageFooter",
@@ -107,12 +107,12 @@ export default {
       storyAvatars: [
         {
           id: "julien",
-          image: julienImage
+          image: ImageJulien
         },
 
         {
           id: "valerian",
-          image: valerianImage
+          image: ImageValerian
         }
       ],
 
@@ -121,7 +121,7 @@ export default {
           id: "youtube",
           label: "YouTube",
           color: "red",
-          target: this.$config.public.PLATFORMS.youtube.target
+          target: this.$config.public.platforms.youtube.target
         }
       ]
     };
@@ -140,7 +140,7 @@ $c: ".c-page-footer";
 $story-avatar-size: 68px;
 $story-avatar-border-width: 4px;
 
-.c-page-footer {
+#{$c} {
   padding: 28px 0;
 
   #{$c}__left {
@@ -271,7 +271,7 @@ $story-avatar-border-width: 4px;
 // --> MEDIA-QUERIES <--
 
 @media (max-width: $screen-lilliput-width-breakpoint) {
-  .c-page-footer {
+  #{$c} {
     #{$c}__story {
       flex-direction: column;
 

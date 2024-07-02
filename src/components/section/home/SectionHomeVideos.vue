@@ -5,8 +5,6 @@
  * Author: Valerian Saliou https://valeriansaliou.name/
  -->
 
-<!--OK OK OK-->
-
 <!-- **********************************************************************
      TEMPLATE
      ********************************************************************** -->
@@ -15,7 +13,7 @@
 .c-section-home-videos
   page-wrapper
     .c-section-home-videos__nest(
-      v-for="nest, nestIndex in nests"
+      v-for="(nest, nestIndex) in nests"
       :key="'nest_' + nestIndex"
     )
       base-video-title(
@@ -30,7 +28,7 @@
         class="c-section-home-videos__grid"
       )
         template(
-          v-for="video, videoIndex in nest.videos"
+          v-for="(video, videoIndex) in nest.videos"
         )
           a(
             v-if="video.id"
@@ -59,7 +57,7 @@
 
 <script>
 // PROJECT: CONTENT
-import homeVideos from "~/content/home/videos.json";
+import HomeVideos from "@/content/home/videos.json";
 
 export default {
   name: "SectionHomeVideos",
@@ -68,7 +66,7 @@ export default {
     return {
       // --> DATA <--
 
-      nests: homeVideos
+      nests: HomeVideos
     };
   }
 };
@@ -81,7 +79,7 @@ export default {
 <style lang="scss">
 $c: ".c-section-home-videos";
 
-.c-section-home-videos {
+#{$c} {
   #{$c}__nest {
     margin-bottom: 56px;
 

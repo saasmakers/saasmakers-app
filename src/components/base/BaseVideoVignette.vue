@@ -59,7 +59,7 @@ span(
 
 <script>
 // PROJECT: IMAGES
-import ImageIconPlay from "~/assets/images/components/base/BaseVideoVignette/icon-play.svg";
+import ImageIconPlay from "@/assets/images/components/base/BaseVideoVignette/icon-play.svg?component";
 
 export default {
   name: "BaseVideoVignette",
@@ -138,7 +138,7 @@ export default {
 <style lang="scss">
 $c: ".c-base-video-vignette";
 
-.c-base-video-vignette {
+#{$c} {
   background-color: $color-base-black-light;
   background-repeat: no-repeat;
   background-position: center;
@@ -176,7 +176,7 @@ $c: ".c-base-video-vignette";
       }
 
       #{$c}__details-play {
-        height: auto;
+        height: 30px;
         width: auto;
         margin-top: -5px;
       }
