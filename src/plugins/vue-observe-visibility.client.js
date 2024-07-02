@@ -10,11 +10,12 @@
  * ************************************************************************* */
 
 // NPM
-import Vue from "vue";
-import VueObserveVisibility from "vue-observe-visibility";
+import VueObserveVisibility from "vue3-observe-visibility";
+import { defineNuxtPlugin } from "#app";
 
 /**************************************************************************
  * VUE OBSERVE VISIBILITY
  * ************************************************************************* */
-
-Vue.use(VueObserveVisibility);
+export default defineNuxtPlugin(nuxtApp => {
+  nuxtApp.vueApp.use(VueObserveVisibility);
+});

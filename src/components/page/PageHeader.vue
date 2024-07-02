@@ -31,7 +31,7 @@ div(
 
           .c-page-header__right
             a(
-              :href="$config.platforms.youtube.target"
+              :href="$config.public.PLATFORMS.youtube.target"
               target="_blank"
               class="c-page-header__platform"
             )
@@ -44,7 +44,7 @@ div(
                 round
               )
                 span.c-page-header__platform-handle.c-page-header__platform-handle--large
-                  | {{ $config.platforms.youtube.handle }}
+                  | {{ $config.public.PLATFORMS.youtube.handle }}
 
                 span.c-page-header__platform-handle.c-page-header__platform-handle--small
                   | YT
@@ -83,7 +83,7 @@ export default {
     this.onWindowScroll();
   },
 
-  beforeDestroy() {
+  beforeUnmount() {
     window.removeEventListener("scroll", this.onWindowScroll);
   },
 

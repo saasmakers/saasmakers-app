@@ -1,25 +1,15 @@
-/*
- * SaaS Makers - Web
- *
- * Copyright 2023, SaaS Makers
- * Author: Valerian Saliou https://valeriansaliou.name/
- */
-
-/**************************************************************************
- * IMPORTS
- * ************************************************************************* */
-
 // NODE
 import fs from "fs";
 import path from "path";
 
 // NPM
-import merge from "lodash.merge";
+import merge from "lodash/merge";
+import { defineNuxtConfig } from "nuxt/config";
 
 // CONFIGURATION
-import * as configCommon from "./config/common";
-import * as configProduction from "./config/production";
-import * as configDevelopment from "./config/development";
+import * as configCommon from "./config/common.json";
+import * as configProduction from "./config/production.json";
+import * as configDevelopment from "./config/development.json";
 
 // PACKAGE
 import * as projectPackage from "./package.json";
@@ -48,226 +38,157 @@ const CONFIG = (function () {
   return _config;
 })();
 
-/**************************************************************************
- * EXPORTS
- * ************************************************************************* */
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  devtools: { enabled: true },
 
-export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: "static",
-
-  // Global name: \
-  //   https://nuxtjs.org/docs/configuration-glossary/configuration-global-name
-  globalName: "saasmakers",
-
-  // Server-Side Rendering: \
-  //   https://nuxtjs.org/docs/configuration-glossary/configuration-ssr
-  ssr: true,
-
-  // Telemetry: \
-  //   https://nuxtjs.org/docs/configuration-glossary/configuration-telemetry
+  // https://github.com/nuxt/telemetry
   telemetry: false,
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: "saasmakers-web",
-
-    htmlAttrs: {
-      lang: "en"
-    },
-
-    meta: [
-      {
-        charset: "utf-8"
-      },
-
-      {
-        name: "viewport",
-        content: "width=device-width, initial-scale=1"
-      },
-
-      {
-        name: "format-detection",
-        content: "telephone=no"
-      },
-
-      {
-        hid: "description",
-        name: "description",
-        content:
-          "Chaque mois, nous parlons d’un sujet SaaS avec un expert du domaine."
-      }
-    ],
-
-    link: [
-      {
-        rel: "shortcut icon",
-        type: "image/x-icon",
-        href: "/favicons/favicon.ico"
-      },
-
-      {
-        rel: "icon",
-        type: "image/png",
-        href: "/favicons/favicon.png"
-      },
-
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "512x512",
-        href: "/favicons/favicon-512x512.png"
-      },
-
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "256x256",
-        href: "/favicons/favicon-256x256.png"
-      },
-
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "192x192",
-        href: "/favicons/favicon-192x192.png"
-      },
-
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "144x144",
-        href: "/favicons/favicon-144x144.png"
-      },
-
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "128x128",
-        href: "/favicons/favicon-128x128.png"
-      },
-
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "32x32",
-        href: "/favicons/favicon-32x32.png"
-      }
-    ]
-  },
-
-  // Source directory: \
-  //   https://nuxtjs.org/docs/configuration-glossary/configuration-srcdir
   srcDir: "src/",
 
-  // Directories: \
-  //   https://nuxtjs.org/docs/configuration-glossary/configuration-dir/
-  dir: {
-    assets: "assets",
-    app: "app",
-    layouts: "layouts",
-    middleware: "middleware",
-    store: "store",
-    pages: "pages",
-    static: "static"
-  },
+  app: {
+    head: {
+      title: "SaaS Makers",
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["assets/stylesheets/all"],
+      htmlAttrs: {
+        lang: "en"
+      },
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: "plugins/vue-observe-visibility.js" }],
+      meta: [
+        {
+          charset: "utf-8"
+        },
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: [{ path: "components", pathPrefix: false }],
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1"
+        },
 
-  // Modules for dev and build (recommended): \
-  //   https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    "@nuxtjs/eslint-module",
-    "@nuxtjs/style-resources",
-    "@nuxtjs/svg"
-  ],
+        {
+          name: "format-detection",
+          content: "telephone=no"
+        },
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/robots", "@nuxtjs/sitemap"],
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Chaque mois, nous parlons d’un sujet SaaS avec un expert du domaine."
+        }
+      ],
 
-  // Router: https://nuxtjs.org/docs/configuration-glossary/configuration-router
-  router: {
-    base: "/",
-    mode: "history",
-    trailingSlash: true,
-    prefetchLinks: false
-  },
+      link: [
+        {
+          rel: "shortcut icon",
+          type: "image/x-icon",
+          href: "/favicon.ico"
+        },
 
-  // Loading: \
-  //   https://nuxtjs.org/docs/configuration-glossary/configuration-loading
-  loading: {
-    color: "#ff88a3",
-    failedColor: "#db0031",
-    height: "3px",
-    throttle: 250,
-    duration: 3000,
-    continuous: false
-  },
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/favicon.png"
+        },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    extractCSS: true,
-    publicPath: "/public/",
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "512x512",
+          href: "/favicons/favicon-512x512.png"
+        },
 
-    splitChunks: {
-      layouts: false,
-      pages: true,
-      commons: true
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "256x256",
+          href: "/favicons/favicon-256x256.png"
+        },
+
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "192x192",
+          href: "/favicons/favicon-192x192.png"
+        },
+
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "144x144",
+          href: "/favicons/favicon-144x144.png"
+        },
+
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "128x128",
+          href: "/favicons/favicon-128x128.png"
+        },
+
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "32x32",
+          href: "/favicons/favicon-32x32.png"
+        }
+      ]
     }
   },
 
-  // Public runtime configuration: \
-  //   https://nuxtjs.org/docs/configuration-glossary/\
-  //     configuration-runtime-config
-  publicRuntimeConfig: {
-    // Important: remap config as to strip any private token from there, as \
-    //   eg. in the future there might be some private built-time token shared \
-    //   in this configuration file, which we DO NOT want to leak on the Web.
-    url: CONFIG.url,
-    platforms: CONFIG.platforms,
-    tokens: CONFIG.tokens.public,
-    author: projectPackage.author
+  modules: [
+    "nuxt-svgo",
+    "nuxt-lodash",
+    "@nuxtjs/sitemap",
+    // '@nuxtjs/robots',
+    "@nuxtjs/eslint-module"
+  ],
+
+  // (Module)
+  svgo: {
+    svgo: true,
+    defaultImport: "component",
+    autoImportPath: false,
+    svgoConfig: {
+      multipass: true,
+      removeViewBox: false
+    }
   },
 
-  // Generate options: \
-  //   https://nuxtjs.org/docs/configuration-glossary/configuration-generate
-  generate: {
-    dir: "dist",
-    fallback: "404.html"
+  // (Module) Sitemap: https://nuxtseo.com/sitemap/getting-started/installation
+  site: {
+    url: CONFIG.url.saasmakers_web
   },
 
-  // CLI settings: \
-  //   https://nuxtjs.org/docs/configuration-glossary/configuration-cli
-  cli: {
-    badgeMessages: [
-      `${projectPackage.author.name} © ${new Date().getFullYear()}`
-    ],
-
-    bannerColor: "blueBright"
-  },
-
-  // (Module) Robots: https://github.com/nuxt-community/robots-module
+  // (Module) Robots: https://nuxt.com/modules/robots
   robots: {
     UserAgent: "*",
     Allow: "/",
     Sitemap: `${CONFIG.url.saasmakers_web}/sitemap.xml`
   },
 
-  // (Module) Sitemap: https://sitemap.nuxtjs.org/usage/sitemap
-  sitemap: {
-    hostname: CONFIG.url.saasmakers_web
+  runtimeConfig: {
+    public: {
+      baseURL: "/jellow",
+      URL: CONFIG.url,
+      PLATFORMS: CONFIG.platforms,
+      AUTHOR: projectPackage.author
+    }
   },
 
-  // (Module) Style Resources: \
-  //   https://github.com/nuxt-community/style-resources-module
-  styleResources: {
-    scss: ["assets/stylesheets/variables/*", "assets/stylesheets/tools/*"]
+  // extract CSS
+  // https://github.com/nuxt/nuxt/pull/21573
+  experimental: {
+    inlineSSRStyles: false
+  },
+
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "./assets/stylesheets/all.scss" as *;'
+        }
+      }
+    }
   }
-};
+});
