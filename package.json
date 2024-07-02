@@ -20,7 +20,7 @@
   },
   "scripts": {
     "dev": "nuxt dev",
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "clean": "rm -rf ./build",
     "test": "npm run lint",
     "lint:js": "eslint .",
