@@ -78,7 +78,7 @@ export default {
 <style lang="scss">
 $c: ".c-base-title";
 
-.c-base-title {
+#{$c} {
   // --> LEVELS <--
 
   &--mini {
@@ -133,7 +133,7 @@ $c: ".c-base-title";
 // --> MEDIA-QUERIES <--
 
 @media (max-width: $screen-tiny-width-breakpoint) {
-  .c-base-title {
+  #{$c} {
     &--large {
       font-size: 56px;
       line-height: 56px;
@@ -147,7 +147,7 @@ $c: ".c-base-title";
 }
 
 @media (max-width: $screen-lilliput-width-breakpoint) {
-  .c-base-title {
+  #{$c} {
     &--large {
       font-size: 40px;
       line-height: 40px;

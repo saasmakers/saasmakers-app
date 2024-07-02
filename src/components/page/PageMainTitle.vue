@@ -23,15 +23,19 @@ div(
       :align="align"
       class="c-page-main-title__title"
     )
-      slot(
-        slot="title"
-        name="title"
+      template(
+        v-slot:title
       )
+        slot(
+          name="title"
+        )
 
-      slot(
-        slot="description"
-        name="description"
+      template(
+        v-slot:description
       )
+        slot(
+          name="description"
+        )
 
     .c-page-main-title__action(
       v-if="$slots.action"
@@ -69,7 +73,7 @@ export default {
 <style lang="scss">
 $c: ".c-page-main-title";
 
-.c-page-main-title {
+#{$c} {
   #{$c}__wrapper {
     position: relative;
   }

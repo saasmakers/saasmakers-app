@@ -188,7 +188,7 @@ $size-small-padding-sides: 14px;
 $size-medium-padding-sides: 30px;
 $size-large-padding-sides: 34px;
 
-.c-base-button {
+#{$c} {
   display: inline-block;
 
   #{$c}__inner {

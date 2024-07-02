@@ -15,16 +15,6 @@
 </template>
 
 <!-- **********************************************************************
-     SCRIPT
-     ********************************************************************** -->
-
-<script>
-export default {
-  name: "PageWrapper"
-};
-</script>
-
-<!-- **********************************************************************
      STYLE
      ********************************************************************** -->
 
@@ -32,7 +22,7 @@ export default {
 $c: ".c-page-wrapper";
 
 // VARIABLES
-.c-page-wrapper {
+#{$c} {
   width: calc(100% - (2 * $page-wrapper-default-padding-sides));
 
   max-width: calc(
@@ -46,34 +36,34 @@ $c: ".c-page-wrapper";
 // --> MEDIA-QUERIES <--
 
 @media (max-width: $screen-large-width-breakpoint) {
-  .c-page-wrapper {
+  #{$c} {
     max-width: auto;
   }
 }
 
 @media (max-width: $screen-medium-width-breakpoint) {
-  .c-page-wrapper {
+  #{$c} {
     width: calc(100% - (2 * $page-wrapper-medium-padding-sides));
     padding: 0 $page-wrapper-medium-padding-sides;
   }
 }
 
 @media (max-width: $screen-small-width-breakpoint) {
-  .c-page-wrapper {
+  #{$c} {
     width: calc(100% - (2 * $page-wrapper-small-padding-sides));
     padding: 0 $page-wrapper-small-padding-sides;
   }
 }
 
 @media (max-width: $screen-tiny-width-breakpoint) {
-  .c-page-wrapper {
+  #{$c} {
     width: calc(100% - (2 * $page-wrapper-tiny-padding-sides));
     padding: 0 $page-wrapper-tiny-padding-sides;
   }
 }
 
 @media (max-width: $screen-lilliput-width-breakpoint) {
-  .c-page-wrapper {
+  #{$c} {
     width: calc(100% - (2 * $page-wrapper-lilliput-padding-sides));
     padding: 0 $page-wrapper-lilliput-padding-sides;
   }

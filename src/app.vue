@@ -1,7 +1,7 @@
 <!--
  * SaaS Makers - Web
  *
- * Copyright 2023, SaaS Makers
+ * Copyright 2024, SaaS Makers
  * Author: Valerian Saliou https://valeriansaliou.name/
  -->
 
@@ -10,28 +10,27 @@
      ********************************************************************** -->
 
 <template lang="pug">
-.c-page-content
-  slot
+nuxt-layout(
+  layout="default"
+)
+  nuxt-loading-indicator(
+    :throttle="250"
+    :duration="3000"
+    :height="3"
+    color="#ff88a3"
+    error-color="#db0031"
+  )
+
+  nuxt-page
 </template>
 
 <!-- **********************************************************************
-     STYLE
+     SCRIPT
      ********************************************************************** -->
 
-<style lang="scss">
-$c: ".c-page-content";
-
-#{$c} {
-  padding-top: 20px;
-  padding-bottom: 110px;
-}
-
-// --> MEDIA-QUERIES <--
-
-@media (max-width: $screen-tiny-width-breakpoint) {
-  #{$c} {
-    padding-top: 14px;
-    padding-bottom: 80px;
-  }
-}
-</style>
+<script setup>
+// Set page title (default title if none set)
+useHead({
+  title: "SaaS Makers"
+});
+</script>

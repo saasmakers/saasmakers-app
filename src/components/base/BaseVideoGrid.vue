@@ -15,23 +15,13 @@
 </template>
 
 <!-- **********************************************************************
-     SCRIPT
-     ********************************************************************** -->
-
-<script>
-export default {
-  name: "BaseVideoGrid"
-};
-</script>
-
-<!-- **********************************************************************
      STYLE
      ********************************************************************** -->
 
 <style lang="scss">
 $c: ".c-base-video-grid";
 
-.c-base-video-grid {
+#{$c} {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 20px;
   row-gap: 16px;
@@ -41,13 +31,13 @@ $c: ".c-base-video-grid";
 // --> MEDIA-QUERIES <--
 
 @media (max-width: $screen-medium-width-breakpoint) {
-  .c-base-video-grid {
+  #{$c} {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: $screen-tiny-width-breakpoint) {
-  .c-base-video-grid {
+  #{$c} {
     grid-template-columns: repeat(1, 1fr);
   }
 }

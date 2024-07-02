@@ -18,20 +18,9 @@
      SCRIPT
      ********************************************************************** -->
 
-<script>
-export default {
-  name: "IndexPage",
-
-  head: {
-    title: "SaaS Makers"
-  }
-};
+<script setup>
+// Set page title
+useHead({
+  title: "SaaS Makers – Discussions autour du SaaS"
+});
 </script>
-
-<!-- **********************************************************************
-     STYLE
-     ********************************************************************** -->
-
-<style lang="scss">
-$c: ".p-index";
-</style>
