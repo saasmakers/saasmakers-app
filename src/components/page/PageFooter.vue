@@ -93,7 +93,7 @@
 <script>
 // CONSTANTS
 import ImageJulien from "@/assets/images/components/page/PageFooter/julien.webp";
-import ImageValerian from "@/assets/images/components/page/PageFooter/valerian.webp";
+import ImageValerian from "@/assets/images/components/page/PageFooter/valerian.jpg";
 
 export default {
   name: "PageFooter",
